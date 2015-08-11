@@ -43,7 +43,7 @@ download_tokens = []
 for t in download_tokens:
     ocpaccess.download.get_data(
         token =         t,              zoom = 1,
-        start =         0,              x_stop =      10752,
+        x_start =       0,              x_stop =      10752,
         y_start =       0,              y_stop =      13312,
         z_start =       1,              z_stop =      1850,
         location =      t
