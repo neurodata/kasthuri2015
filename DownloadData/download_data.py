@@ -43,7 +43,7 @@ download_tokens = []
 for t in download_tokens:
     print("Token: " + t)
     ocpaccess.download.get_data(
-        token =         t,              zoom = 1,
+        token =         t,              resolution = 1,
         x_start =       0,              x_stop =      10752,
         y_start =       0,              y_stop =      13312,
         z_start =       1,              z_stop =      1850,
@@ -57,7 +57,7 @@ print("Done.")
 # the server is responding correctly.
 """
 ocpaccess.download.get_data(
-        token =        "kasthuri11", zoom = 1,
+        token =        "kasthuri11", resolution = 1,
         x_start =      5000,              x_stop =      6000,
         y_start =      5000,              y_stop =      6000,
         z_start =      1,                 z_stop =      185,
