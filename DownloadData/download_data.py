@@ -32,8 +32,13 @@ full = ['kasthuri11',
         'kat11synapses',
         'kat11mito']
 
-download_tokens = # put `common` or `full`
+download_tokens = []
+
+# Uncomment the next line for `common`
 # download_tokens = common
+
+# Uncomment the next line for `full`
+# download_tokens = full
 
 for t in download_tokens:
     ocpaccess.download.get_data(
@@ -44,6 +49,7 @@ for t in download_tokens:
         location =      t
     )
 
+print("Done.")
 
 # You may want to run the code below (a much smaller sample) first,
 # in order to be sure that your environment is set up correctly and
