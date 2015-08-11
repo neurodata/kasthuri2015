@@ -41,6 +41,7 @@ download_tokens = []
 # download_tokens = full
 
 for t in download_tokens:
+    print("Token: " + t)
     ocpaccess.download.get_data(
         token =         t,              zoom = 1,
         x_start =       0,              x_stop =      10752,
