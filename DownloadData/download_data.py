@@ -38,17 +38,23 @@ download_tokens = []
 # download_tokens = common
 
 # Uncomment the next line for `full`
-# download_tokens = full
+download_tokens = full
 
 for t in download_tokens:
     print("Token: " + t)
-    ocpaccess.download.get_data(
+    successes, failures = ocpaccess.download.get_data(
         token =         t,              resolution = 1,
         x_start =       0,              x_stop =      10752,
         y_start =       0,              y_stop =      13312,
         z_start =       1,              z_stop =      1850,
-        location =      t
+        location =      "download/" + t
     )
+
+    if len(failures) > 0:
+        print("Failures:")
+        for f in failures:
+            print("\t" + f)
+
 
 print("Done.")
 
