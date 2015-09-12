@@ -1,1 +1,0 @@
-data = h5read('data/mito.hdf5', '/annotation/CUTOUT');
