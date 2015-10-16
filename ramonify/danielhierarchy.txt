@@ -1,0 +1,70 @@
+% These are notes that were manually compiled from VAST names
+
+Glia
+    RAMONGeneric
+    Add type
+    Add subtype
+    
+Axons
+    subtype = 
+    Excitatory
+    Inhibitory
+    Myelinated
+    
+Dendrites 
+    subtype = Spiny or Smooth
+    isSpine Spine or no
+    
+'D4_Spines'                                 [ 422]
+'D6_Apical_Spines'                          [1403]
+'Thin_spine_neck_(no_synapse_)'             [1064]
+'BD_Apical_Spines'                          [1554]
+'UD_Apical_Spines'                          [2066]
+'LD_Apical_Spines'                          [2147]
+'D5_Apical_Spines'                          [2276]
+'D7_Apical_Spines'                          [2325]
+'AP03_Apical_Spines'                        [2538]
+'D9_Apical_Spines'                          [3155]
+'Additional_Spines'                         [3242]
+'Glia'                                      [4245]
+    'Astrocytes'                                [6705]
+    'Oligodendrocytes'                          [6707]
+'Axons'                                     [1408]
+        'Excitatory_Axons'                          [3682]
+        'Myelinated_Axons'                          [4141]
+        'Inhibitory_Axons'                          [6130]
+'Dendrites'                                 [6149]
+    'Spiny_Dendrites'                           [6702]
+    'Smooth_Dendrites'                          [4716]
+ 
+    'Neurons'                                   [   2]
+    'Daniels_Axons'                             [ 863]
+    'Annotations'                               [ 868]
+    'Questionable'                              [ 869]
+    'Other'                                     [1405]
+    'Oblique_Dendrite_35_-__AD_11_AS_DELETE'    [3215]
+    'RC_Oblique_Dendrites'                      [3231]
+    'Glue'                                      [4294]
+    'Segment_4337_Glia'                         [4372]
+    'Glue'                                      [4672]
+    'Additional_Dendrites'                      [4800]
+    'GC_Dendrites'                              [5113]
+    'GC_Dendrite_5_=_OD_47_DELETE'              [5170]
+    'Green_Cylinder_Excitatory_Axons'           [5194]
+    'Other_Dendrites'                           [5419]
+    'Red_Cylinder_Inhibitory_Axons'             [6146]
+    'Excitatory_Axons_(from_Mojo)'              [6147]
+    'Inhibitory_Axons_(from_Mojo)'              [6148]
+    'Spiny_Dendrites_(from_Mojo)'               [6150]
+    'Green_Cylinder_Inhibitory_Axons'           [6151]
+    'Glia_(from_Mojo)_deleted'                  [6152]
+    'Unknown_deleted'                           [6153]
+    'Axon_6222_AU_deleted'                      [6222]
+    'Axon_6380_deleted'                         [6380]
+    'Axon_Excitatory_6432_deleted'              [6432]
+    'Axon_6495_deleted'                         [6495]
+    'Segment_6662_UU_extracellular_delete!'     [6662]
+    'Deleted'                                   [6686]
+    'Axon_6701'                                 [6701]
+    'Unknown_Axons'                             [6703]
+    'Red_Cylinder_Excitatory_Axons'             [6704]
