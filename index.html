@@ -29,39 +29,14 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="web/css/neurodata.css" >
 
     <!-- bower:css -->
-    <!-- <link rel="stylesheet" href="/content/themes/jhu_id/bower_components/normalize-css/normalize.css"> -->
     <link rel="stylesheet" href="web/fonts/gentona/gentona.css">
     <link rel="stylesheet" href="web/fonts/titling-gothic/titling-gothic.css">
     <link rel="stylesheet" href="web/fonts/quadon/quadon.css">
     <link rel="stylesheet" href="web/fonts/arnhem/arnhem.css">
     <!-- endbower -->
-    <style type="text/css">
-
-      body {
-        font-family: 'gentona'; /* Varela Round */
-        background: black;
-      }
-      .navbar {
-        position: absolute;
-        /*float: -20em;*/
-        /*top: 0em;*/
-        font-family: 'titling-gothic';  /* Yanone Kaffeesatz */
-        font-weight: 200;
-        color: black;
-        background: black;
-      }
-
-      /*      h1, h2, h3, h4, h5, h6 {
-        font-family: 'quadon';
-      }      */
-      h1, h2, h3, h4, h5, h6 {
-        font-family: 'quadon';
-        font-weight: 400;
-        margin-bottom: 0;
-      }
-      </style>
 
   </head>
 
@@ -127,7 +102,7 @@
           <img class="first-slide" src="web/images/Figure6final.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Kasthuri et al. 2015</h1>
+              <h1>Kasthuri et al. Cell (2015)</h1>
               <!-- <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p> -->
               <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
             </div>
@@ -137,7 +112,7 @@
           <img class="second-slide" src="web/images/Figure4final.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Kasthuri et al. 2015</h1>
+              <h1>Kasthuri et al. Cell (2015)</h1>
               <!-- <h1>Another example headline.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p> -->
@@ -148,7 +123,7 @@
           <img class="third-slide" src="web/images/Figure3final.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Kasthuri et al. 2015</h1>
+              <h1>Kasthuri et al. Cell (2015)</h1>
               <!-- <h1>One more for good measure.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p> -->
@@ -191,16 +166,16 @@
           Tools <span class="caret"></span>
         </button>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="https://software.rc.fas.harvard.edu/lichtman/vast/">VAST</a>
-          <a class="dropdown-item" href="http://www.rhoana.org/">MOJO</a>
-          <a class="dropdown-item" href="http://docs.neurodata.io/CAJAL/">MATLAB API</a>
-          <a class="dropdown-item" href="http://docs.neurodata.io/nddocs/ndio/">Python API</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="https://github.com/openconnectome/kasthuri2015">Code</a>
+          <a class="dropdown-item" href="https://software.rc.fas.harvard.edu/lichtman/vast/">VAST</a><br>
+          <a class="dropdown-item" href="http://www.rhoana.org/">MOJO</a><br>
+          <a class="dropdown-item" href="http://docs.neurodata.io/CAJAL/">MATLAB API</a><br>
+          <a class="dropdown-item" href="http://docs.neurodata.io/nddocs/ndio/">Python API</a><br>
         </div>
       </div>
+      <a class="btn btn-lg btn-primary" href="http://openconnecto.me/data/public/kasthuri2015" role="button">Data</a>
+      <a class="btn btn-lg btn-primary" href="https://github.com/openconnectome/kasthuri2015" role="button">Analysis</a>
       <a class="btn btn-lg btn-primary" href="http://dx.doi.org/10.1016/j.cell.2015.06.054" role="button">Manuscript</a>
-      <a class="btn btn-lg btn-primary" href="http://w.ocp.me/datum:kasthuri15" role="button">Docs</a>
+      <a class="btn btn-lg btn-primary" href="kasthuri15docs.html" role="button">Docs</a>
       <a class="btn btn-lg btn-primary" href="https://github.com/openconnectome/kasthuri2015" role="button">Github</a>
       <a class="btn btn-lg btn-primary" href="http://lichtmanlab.fas.harvard.edu/cell-july-2015" role="button">Media</a>
 
@@ -239,9 +214,11 @@
           <!-- <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2> -->
           <br>
           <p class="text-center">
+            <small>
             These data are made available under the Open Data Commons Attribution License: 
             <a href="http://opendatacommons.org/licenses/by/1.0/">ODC-BY 1.0 license</a>. Any public use should provide attribution, including a reference to the following link:  
             <a href="http://neurodata.io/Kasthurietal2014">http://neurodata.io/Kasthurietal2014</a>.
+            </small>
           </p>
         </div>
         <!-- <div class="col-md-5">
@@ -260,8 +237,11 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 <a href="http://neurodata.io">NeuroData</a></p>
-           <!-- &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> -->
+      <p id="builtby">
+      &copy; 2016 <a href="http://neurodata.io">NeuroData</a>. 
+      Built by <a href="https://github.com/openconnectome/kasthuri2015/graphs/contributors">contributors</a>.
+      <a href="https://github.com/openconnectome/kasthuri2015/tree/gh-pages">Page source.</a>
+      </p>        
       </footer>
 
     </div><!-- /.container -->

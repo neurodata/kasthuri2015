@@ -1,0 +1,21 @@
+body {
+  font-family: 'gentona'; /* Varela Round */
+/*  background: black;
+*/}
+.navbar {
+  position: absolute;
+  /*float: -20em;*/
+  /*top: 0em;*/
+  font-family: 'titling-gothic';  /* Yanone Kaffeesatz */
+  font-weight: 200;
+  background: black;
+}
+
+/*      h1, h2, h3, h4, h5, h6 {
+  font-family: 'quadon';
+}      */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'quadon';
+  font-weight: 400;
+  margin-bottom: 0;
+}
