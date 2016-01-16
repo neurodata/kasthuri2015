@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Kasthuri</title>
+    <link rel="stylesheet" href="http://yandex.st/highlightjs/7.5/styles/tomorrow.min.css">
+    <link rel="stylesheet" href="web/stylesheets/style.css">
+    <link rel="stylesheet" href="web/stylesheets/shelves.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link rel="icon" sizes="16x16 32x32" href="web/images/favicon.ico?v=2">
+    <script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="web/javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="web/stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+  <div section id='top'>
+<!--     <div class='row' style='text-align: center'>
+        <img id="header" src="web/images/title.svg" style='opacity:0.5'>
+    </div>
+ -->
+    <div class='row'>
+      <div style="text-align: center" id="header-container">
+        <div class="row">
+            <h1 id="subheader">Kasthuri et al. 2015</h1>
+        </div>
+        <div class='row' style='margin-bottom: 80px'>
+            <a class="btn btn-white-outline" data-remote="false"
+            data-target="#getting-started" href="src/">Visualize</a>
+
+            <a class="btn btn-white-outline" data-remote="false"
+            data-target="#getting-started" href="src/">Data</a>
+            
+            <a class="btn btn-white-outline" data-remote="false"
+            data-target="#getting-started" href="src/">Code</a>
+
+            <a class="btn btn-white-outline" data-remote="false"
+            data-target="#getting-started" href="src/">Manuscript</a>
+
+            <a class="btn btn-white-outline" data-remote="false"
+            data-target="#foo" href="http://thunder-project.org/thunder/docs">Docs</a>
+
+            <a class="btn btn-white-outline" data-remote="false"
+            data-target="#foo" href="https://github.com/openconnectome/kasthuri2015">Github</a>
+
+            <a class="btn btn-white-outline" data-remote="false"
+            data-target="#foo" id='notebooks'>Live notebooks</a>
+
+            <a class="btn btn-white-outline" data-remote="false"
+            data-target="#getting-started" href="src/">Media</a>
+
+        </div>
+      </div>
+      <div> 
+      <h4>
+      Bobby Kasthuri, Ph.D. under the tutelage of Jeff Lichtman, M.D., Ph.D., acquired a data set from mouse cortex with a 3x3x30 cubic nanometer spatial resolution, yielding 660GB of images. This beautiful data was published Friday, July 30th 2015 in Cell.
+      </h4>
+      </div>
+
+    </div>
+    </div>
+
+    <div>
+      <div class="row">
+        <h6>  
+          These data are made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0/. Any public use should provide attribution, including a reference to the following link:  http://neurodata.io/Kasthurietal2014.
+        </h6>
+      </div>
+    </div>
+  
+<!--   <div section id="features">
+      <div class="row">
+         <div class="column-4">
+          <h2 class='subtitle' id="subtitle1"><i class="fa fa-bolt"></i>&nbsp;&nbsp;Fast</h2>
+          <h3 class="subcontent">Lightning-fast analysis through the Spark cluster computing framework. Simple to run on a cluster with Amazon EC2.</h3>
+        </div>
+        <div class="column-4">
+          <h2 class='subtitle' id="subtitle2"><i class="fa fa-play-circle-o"></i>&nbsp;&nbsp;Easy</h2>
+          <h3 class="subcontent">Run existing analyses or develop new ones. Try locally before deploying on a cluster. All in Python.</h3>
+        </div>
+         <div class="column-4">
+          <h2 class='subtitle' id="subtitle3"><i class="fa fa-bar-chart-o"></i>&nbsp;&nbsp;&nbsp;Interactive</h2>
+          <h3 class="subcontent">Run interactively in the Jupyter notebook. Immediately inspect, visualize, and share results and analyses.</h3>
+        </div>
+      </div>
+  </div> -->
+
+
+    
+    
+  </div>
+
+
+
+  <footer>
+    <div class="row">
+      <p id="builtby">Built by <a href="https://github.com/openconnectome/kasthuri.github.com/graphs/contributors">contributors</a></p>
+    </div>
+  </footer>
+
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker("UA-46696594-1");
+    pageTracker._trackPageview();
+    } catch(err) {}
+  </script>
+  <script>
+    $("#notebooks").click(function() {
+      $.ajax({type: "POST", data: JSON.stringify({"path": "/"}), 
+        url: "http://notebooks.codeneuro.org:9000/api/spawn/"})
+      .done( function(data) {
+        window.open(data.url + 'notebooks/thunder/intro.ipynb', '_self');
+      })
+    })
+  </script>
+
+  </body>
+</html>

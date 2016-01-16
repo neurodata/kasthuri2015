@@ -1,0 +1,369 @@
+body {
+	background-color: rgb(200,200,200);
+	color: #2d3c48;
+     font: 18px "Helvetica Neue", sans-serif;
+     font-weight: 300;
+     -webkit-font-smoothing: antialiased;
+     margin: 0px;
+}
+
+p {
+     font-size: 18px;
+}
+
+a {
+     color: #d9230f;
+     transition: all .25s; 
+     -moz-transition: all .25s; 
+     -webkit-transition: all .25s;
+     border: 0;
+     text-decoration: none;
+     border: none;
+}
+
+h3 {
+     color: #2d3c48;
+}
+
+#want-more {
+     font-size: 28px;
+     font-weight: 200;
+     text-align: center;
+}
+
+.btn-white-outline{
+     color:#fff;
+     border:2px solid #fff;
+     background:transparent;
+     -webkit-transition:all .3s;
+     -moz-transition:all .3s;
+     -ms-transition:all .3s;
+     -o-transition:all .3s;
+     transition:all .3s;
+     -webkit-border-radius:6px;
+     border-radius:6px;
+     -webkit-background-clip:padding-box;
+     background-clip:padding-box;
+     font-weight:600;
+     -webkit-font-smoothing:antialiased
+}
+
+.btn-white-outline:hover,.btn-white-outline:focus{
+     border:2px solid #f7f7f7;
+     color:#f7f7f7;
+     background:rgba(255,255,255,0.2)
+}
+
+
+a:hover {
+     color: #91170a;
+     text-decoration: none;
+     transition: all .25s; 
+     -moz-transition: all .25s; 
+     -webkit-transition: all .25s;
+}
+
+footer {
+     background-color: rgb(230,230,230);
+     padding: 25px;
+}
+
+#builtby {
+     text-align: center;
+     font-size: 15px;
+}
+
+hr {
+     border: 1px solid white;
+     opacity: 0.4;
+
+}
+
+article {
+     margin-bottom: 60px;
+}
+
+pre {
+     border: 0px solid rgb(180,180,180);
+     background-color: rgb(230,230,230);
+     padding: 10px;
+     border-radius: 5px;
+}
+
+pre code {
+     background: transparent;
+     font-size: 12px;
+}
+
+#inline {
+     box-shadow: inset 0 1px 10px rgba(0,0,0,.3),0 1px 0 rgba(255,255,255,.1),0 -1px 0 rgba(0,0,0,.5);
+     background-color: rgb(51,51,51);
+     border-radius: 4px;
+     font-size: 15px;
+     font-family: Menlo;
+     color: #c5c8c6;
+     padding: 5px;
+}
+
+
+@media (min-width: 1200px) {
+    .container{
+        width: 1030px;
+    }
+}
+
+
+.jumbotron {
+     position: relative;
+     background: none;
+     padding: 5px;
+     margin-bottom: 0px;
+     margin-top: 0px;
+     line-height: 2.1428571435;
+     height: 550px;
+     z-index: -1000;
+     background-color: rgb(235,139,52);
+     
+ }
+
+
+.navbar-default {
+     background-color: transparent;
+     border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: rgb(150,150,150);
+}
+
+.navbar-default .navbar-nav > .active > a {
+     color: white;
+     background-color: transparent;
+}
+
+.nav-pills > li > a {
+     font-weight: bold;
+     text-transform: lowercase;
+     font-family: helvetica neue;
+}
+
+.nav-pills > li > a:hover {
+     color: rgb(115,201,152);
+     background: #252525;
+     box-shadow: inset 0 1px 3px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.1);
+     text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+     color: black;
+     background-color: rgb(157,204,122);
+     box-shadow: none;
+     text-shadow: none;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+     color: white;
+     background-color: transparent;
+}
+
+#menu {
+     border-bottom: none;
+     font-weight: bold;
+     text-transform: lowercase;
+     font-family: helvetica neue;
+}
+
+#header {
+     position: absolute;
+     left: 40px;
+     top: 40px;
+	width: 270px;
+     padding-bottom: 20px;
+}
+
+#top {
+     background-color: rgb(235,139,52);
+}
+
+#header-container {
+     font-size: 85px;
+     line-height: 1.2;
+}
+
+#subheader {
+	font-size: 78px;
+     font-weight: 100;
+     color: white;
+     font-family: 'Source sans pro', sans-serif;
+     text-align: center;
+     margin-bottom: 20px;
+     margin-top: 120px;
+}
+
+#features {
+     background-color: rgb(230,230,230);
+}
+
+#getting-started {
+     border:none;
+     padding-top: 40px;
+     transition: all .25s; 
+     -moz-transition: all .25s; 
+     -webkit-transition: all .25s;
+}
+
+#docs {
+     background-color: gray;
+     border-radius: 10px;
+     box-shadow: 0 3px 10px rgba(0,0,0,.1);
+     padding: 40px;
+}
+
+#doctitle {
+     font-size: 52px;
+     color: white;
+}
+
+
+.subtitle {
+     font-style: italic;
+     font-weight: 700;
+     margin-top: 50px;
+     color: rgb(249,168,95);
+     padding-left: 20px;
+}
+
+.subcontent {
+     font-weight: 200;
+     line-height: 1.3;
+     margin-bottom: 80px;
+     padding-right: 20px;
+     padding-left: 20px;
+}
+
+#docsubtitle {
+     font-size: 30px;
+     color: white;
+}
+
+#notebooks {
+     cursor: pointer;
+}
+
+.btn {
+     padding: 15px;
+     font-size: 18px;
+}
+
+.btn-default, .btn-default > a {
+     font-weight: bold;
+     font-family: helvetica neue;
+     background: #252525;
+     color: rgb(157,204,122);
+     box-shadow: inset 0 1px 3px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.1);
+     text-shadow: 0 1px 3px rgba(0,0,0,.5);
+     border-color: black;
+     font-size: 20px;
+     border: none;
+     transition: all .25s; 
+     -moz-transition: all .25s; 
+     -webkit-transition: all .25s;
+}
+
+.btn-default:hover, .btn-default:hover > a {
+     color: white;
+     background: #252525;
+     box-shadow: inset 0 1px 3px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.1);
+     text-shadow: 0 1px 3px rgba(0,0,0,.5);
+     border-color: black;
+     border: none;
+     transition: all .25s; 
+     -moz-transition: all .25s; 
+     -webkit-transition: all .25s;
+}
+
+.btn-default.active, .btn-default.active > a, .btn-default:active, .btn-default:active > a, .btn-default:focus, .btn-default:focus > a {
+     background-color: rgb(157,204,122);
+     box-shadow: none;
+     text-shadow: none;
+     border-color: black;
+     color: white;
+     border: none;
+     transition: all .25s; 
+     -moz-transition: all .25s; 
+     -webkit-transition: all .25s;
+
+}
+
+
+
+
+@media (max-width: 480px) {
+     
+     .btn {
+          display: inline-block;
+          font-size: 22px;
+          padding-bottom: -20px;
+     }
+
+     #header {
+          position: relative;
+          width: 200px;
+          left: 0px;
+     }
+
+     #subheader {
+          margin-top: 40px;
+          font-size: 40px;
+          text-align: center;
+     }
+
+     p {
+          font-size: 14px;
+     }
+
+     pre {
+          word-wrap: break-word;
+     }
+
+     pre code {
+          background: transparent;
+          word-wrap: break-word;
+     }
+
+     .subtitle, .subcontent {
+          text-align: center;
+          font-size: 23px;
+     }
+
+     .subtitle {
+          padding-left: 0px;
+     }
+
+     #docs {
+          padding: 20px;
+     }
+
+     #doctitle {
+          font-size: 30px;
+     }
+
+     #inline {
+          font-size: 12px;
+
+
+}
+
+
+
+
+
+
+
+
