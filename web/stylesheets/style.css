@@ -1,11 +1,15 @@
 body {
-		 background-color: rgb(200,200,200);
-		 color: #2d3c48;
-		 font-family: 'gentona'; /* Varela Round */
+	color: #2d3c48;
+     background-color: #fff;
+	font-family: 'gentona'; /* Varela Round */
+     /*font-family: 'Varela Round'; /*  */*/
      /*font: 18px "Helvetica Neue", sans-serif;*/
      font-weight: 300;
      -webkit-font-smoothing: antialiased;
      margin: 0px;
+     position: absolute;
+     left: 20px;
+     max-width: 640px;
 }
 
 p {
