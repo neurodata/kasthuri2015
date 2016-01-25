@@ -1,8 +1,8 @@
-%% RAMONify Kasthuri
+ %% RAMONify Kasthuri
 % v0.1
 % W. Gray Roncal
 
-uploadToken = 'kasthuri2015_ramon_v1';
+uploadToken = 'kasthuri2015_ramon_v1'%'kasthuri2015_ramon_v1';
 
 %% Determine bounds
 addpath(genpath(pwd))
@@ -103,25 +103,25 @@ ves.setCutout(temp); clear temp
 
 %% % Ramonify Example
 
-%% Skipping - optional - this cell finds correspondence between VAST ids and OCP IDs. 
+%% Skipping - optional - this cell finds correspondence between VAST ids and OCP IDs.
 % These should already match from ingest, but if issues arise, this is a debug point
 
 if 0
-!wget http://openconnecto.me/data/public/kasthuri2015/kat11segments.tar.gz
-%unzipped file of seg1ments from Bobby
-segments_location = 'kasthurietal14_segments_paper';
-
-cd(segments_location)
-allPaintIds = uint32([]);
-f = dir('*.png');
-for i = 1:length(f)
-    i
-    im = single(imread(f(i).name));
-    im = rgbdecode(im);
-    allPaintIds = union(unique(im(:)),allPaintIds);
-end
-
-allPaintIds(allPaintIds == 0) = [];
+    !wget http://openconnecto.me/data/public/kasthuri2015/kat11segments.tar.gz
+    %unzipped file of seg1ments from Bobby
+    segments_location = 'kasthurietal14_segments_paper';
+    
+    cd(segments_location)
+    allPaintIds = uint32([]);
+    f = dir('*.png');
+    for i = 1:length(f)
+        i
+        im = single(imread(f(i).name));
+        im = rgbdecode(im);
+        allPaintIds = union(unique(im(:)),allPaintIds);
+    end
+    
+    allPaintIds(allPaintIds == 0) = [];
 end
 
 %%  add daniels scripts
@@ -157,7 +157,7 @@ for i = 1:length(allPaintIds)
     end
 end
 
-% These lists are hand curated, by grepping for things like 
+% These lists are hand curated, by grepping for things like
 spineId = [422, 1403, 1064, 1554, 2066, 2147, 2276, 2325, 2538, 3155, 3242]; %All spines (manually curated)
 dId = 6149; %All dendrites
 dSpinyId = 6702; %Spiny dendrites
@@ -222,17 +222,18 @@ for i = 1:length(neuronRaw)
     
     n = RAMONNeuron;
     n.setId(neuronRaw(i)+10000);
-    n.setSegments([n.segments; neuronRaw(i)]);
+    segVal = [n.segments, neuronRaw(i)];
+    n.setSegments(segVal(:)');
     N{end+1} = n;
     S{end+1} = s;
     clear n s
 end
-
+%%
 clear qqq
 %Find all neuron IDs
 for i = 1:length(N)
-  
-qqq(i) = N{i}.id;
+    
+    qqq(i) = N{i}.id;
 end
 
 % Objects that have one of the already created neurons as a parent
@@ -244,10 +245,12 @@ for i = 1:length(nonParentRaw)
     s.setResolution(3);
     ii = find(qqq == s.neuron);
     try
-    N{ii}.setSegments([N{ii}.segments; nonParentRaw(i)]);
+        segVal = [N{ii}.segments, nonParentRaw(i)];
+        
+        N{ii}.setSegments(segVal(:)');
     catch
-      disp('indexing wrong')
-      keyboard
+        disp('indexing wrong')
+        keyboard
     end
     S{end+1} = s;
     clear s
@@ -255,7 +258,7 @@ end
 
 clear ss
 for i = 1:length(S)
-ss(i) = S{i}.id;
+    ss(i) = S{i}.id;
 end
 
 %% Synapse data
@@ -290,7 +293,7 @@ for i = 1:length(synLoc)
     synPix(synPix == 0) = [];
     remapVal = mode(synPix);
     if remapVal > 0
-    synOut(rp(remapVal).PixelIdxList) = synIdMap(i);  %TODO Remap Value
+        synOut(rp(remapVal).PixelIdxList) = synIdMap(i);  %TODO Remap Value
     else
         disp('warning - no pixels found')
     end
@@ -312,24 +315,24 @@ for i = 1:length(synIdMap)
     y.addSegment(alink,eRAMONFlowDirection.preSynaptic);
     y.addSegment(dlink,eRAMONFlowDirection.postSynaptic);
     
-%     for i = 1:length(S)
-% ss(i) = S{i}.id;
-% end
+    %     for i = 1:length(S)
+    % ss(i) = S{i}.id;
+    % end
     ii = find(ss == alink);
     try
-    S{ii}.setSynapses([S{ii}.synapses, alink]);
+        S{ii}.setSynapses([S{ii}.synapses, alink]);
     catch
         sprintf('No match found for id %d\n', alink)
-
-     end
+        
+    end
     
     ii = find(ss == dlink);
     try
-    S{ii}.setSynapses([S{ii}.synapses, dlink]);
+        S{ii}.setSynapses([S{ii}.synapses, dlink]);
     catch
-sprintf('No match found for id %d\n', dlink)
+        sprintf('No match found for id %d\n', dlink)
     end
-   
+    
     Y{end+1} = y;
     clear y
 end
@@ -370,6 +373,16 @@ syn.setChannel('synapses')
 oo.createAnnotation(syn)
 
 % mito and vesicles TODO - will need to operate at scale 1
+
+%TODO - mitochondria at scale 3 - possible merging together of adjacent
+%objects
+
+data = mito.data;
+data = bwlabeln(data>0);
+mito.setCutout(data);
+cubeUploadDense('openconnecto.me',uploadToken,'mitochondria', mito, ...
+    'RAMONOrganelle([],eRAMONDataFormat.dense, [],[], eRAMONOrganelleClass.mitochondria)', 0);
+
 
 %% Make edgelist graph
 synLocation = 'openconnecto.me';
