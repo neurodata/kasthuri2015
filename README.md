@@ -1,17 +1,26 @@
-# Converting Kasthuri2015 raw data to parsed NeuroData format Supplemental Methods
+# Reproducible Scalable Science
 
+Currently, scientific research groups produce data in a variety of data formats and different conventions, making it difficult to share information across labs and reproduce results. 
 
-## Input data
+We propose a foundational, flexible data standard for large-scale neuroscience data called RAMON (Reusable Annotation Markup for Open Neuroscience).  This serves as a key enabling technology for communication and data democratization.
+
+## Converting Kasthuri2015 raw data to parsed NeuroData format Supplemental Methods
+
+### Ingest Template
+
+For ingesting data, we provide a simple csv format, organized as kv pairs by RAMONType.  For each RAMON Object, a number of standard fields are available to aid in standardization and efficient queries.  However, from an ingest perspective, 
+
+#### Input data
 
 - The raw image and annotation data was obtained as an export from VAST.  This contained both object IDs, names, and hierarcy information
 - Separately, annotation labels were provided indicating synapse, mitochondria, and vesicle locations.
 - A spreadsheet was provided with additional metadata
 
-## Data ingest
+#### Data ingest
 
 We ingested the data beginning with full xy png stacks exported from VAST.  Neurodata offers several methods to ingest data, including an auto-ingest process.  This process is described in [detail](http://docs.neurodata.io/open-connectome/sphinx/ingesting.html) elsewhere.
 
-## Semantic Understanding
+#### Semantic Understanding
 
 The VAST metadata was combined with information in the Cell supplemental information spreadsheet to create a metadata about each object.  When feasible, object statistics were recomputed from the raw data.  We choose to do this process using MATLAB because the VAST scripts and data are most amenable to parsing using existing tools.  
 
@@ -51,7 +60,7 @@ From the spreadsheet, several important pieces of metadata were gleaned:
 - Axon skeleton length
 - Spine synapse
 
-## RAMONification
+### RAMONification
 
 - Each object is identified by its unique Id - this serves as the primary key for the object.  We use RAMON types to make it easy for users to identify, store, and access the information.  For this paper, we primarily focus on the following types:
 	- RAMONSegment:  Allows for individual neurites and other cell fragments to be identified
@@ -71,3 +80,8 @@ Once all of the data is parsed, we are able to do reproducible, scalable scienti
 A full list of claims will be provided with a more detailed explaination.  For now, the claims may be viewed [here](https://github.com/neurodata/kasthuri2015/tree/master/claims), and are under active development. 
 
 **NeuroData now offers the capabilities to crete RAMON objects during the process of manual or automatic discovery and annotation.  Please contact us for details on how to organize your data so that your claims are reproducible and available to the community as part of your publication process.**
+
+
+### Things that are easy and things that are hard
+
+### Next steps

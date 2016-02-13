@@ -1,9 +1,213 @@
- %% RAMONify Kasthuri
-% v0.1
+%% RAMONify Kasthuri
+% v2
 % W. Gray Roncal
 
 uploadToken = 'kasthuri2015_ramon_v2'%'kasthuri2015_ramon_v1';
 
+% In this version, we automagically convert the VAST/Synapse spreadsheet
+% data to a standard neurodata format suitable for autoingest. In ge
+
+%% Parsing Annotation Data
+
+% Segments, Cylinders, Synapses, Mitochondria and Vesicles are already
+% uploaded as paint
+
+% Segment IDs need to be identified to be sure that all objects are
+% captured.
+
+% Synapses need to be broken into distinct object and ids matched to the
+% spreadsheet
+
+% Mitochondria need to be broken into distinct objects
+
+% Vesicles need to be be broken into distinct objects
+
+
+%% Parsing Metadata
+
+% Mitochondria and Vesicles have generic metadata, so should all be the
+% same
+
+%% Segment Metadata
+
+% For segments - identify all segments present in the paint
+allPaintIds = unique(seg.data);
+allPaintIds(allPaintIds == 0) = [];
+
+[name,data,firstelement]=scanvastcolorfile('Threecylindermerge_May08_db14_export.txt',1);
+
+% Get childtreeids for all objects
+for i = 1:length(allPaintIds)
+    z{i} = getchildtreeids(data,allPaintIds(i));
+end
+
+% Anything that has a child will need to be merged into neurons
+
+% Anything that has no children might be a spine
+z = 1:length(name);
+
+meta = z(~ismember(z,allPaintIds));
+
+%% Get all parents
+clear p pp
+pp = -1*ones(length(allPaintIds),1);
+for i = 1:length(allPaintIds)
+    p = getparent(data,allPaintIds(i));
+    
+    while p > 0 && ~ismember(p,meta) %no match; object has paint
+        pp(i) = p;
+        p = getparent(data,p);
+    end
+end
+
+% These lists are hand curated, by grepping for things like
+spineId = [422, 1403, 1064, 1554, 2066, 2147, 2276, 2325, 2538, 3155, 3242]; %All spines (manually curated)
+dId = 6149; %All dendrites
+dSpinyId = 6702; %Spiny dendrites
+dSmoothId = 4716; %Smooth dendrites
+aId = 1408; %All Axons
+aEId = 3682; %Excitatory
+aIId = 4141; %Inhibitory
+aMId = 6130; %Myelinated
+gId = 4245; %Glia
+gAId = 6705; %Astrocytes
+gOId = 6707; %Oligodendrocytes
+
+nType.d = intersect(getchildtreeids(data,dId),allPaintIds);
+
+nType.dSpiny = intersect(getchildtreeids(data,dSpinyId),allPaintIds);
+nType.dSmooth = intersect(getchildtreeids(data,dSmoothId),allPaintIds);
+nType.spines = intersect(getchildtreeids(data,spineId),allPaintIds);
+nType.dOther = setdiff(nType.d,[nType.dSpiny; nType.dSmooth]); %dOther is empty if spines disregarded
+
+% Axons
+
+nType.a = intersect(getchildtreeids(data,aId),allPaintIds);
+nType.aExcitatory =  intersect(getchildtreeids(data,aEId),allPaintIds);
+nType.aInhibitory = intersect(getchildtreeids(data,aIId),allPaintIds);
+nType.aMyelinated = intersect(getchildtreeids(data,aMId),allPaintIds);
+nType.aOther = setdiff(nType.a,[nType.aExcitatory; nType.aInhibitory; nType.aMyelinate]);
+% Glia
+
+nType.g = intersect(getchildtreeids(data,gId), allPaintIds);
+nType.gAstrocyte = intersect(getchildtreeids(data,gAId), allPaintIds);
+nType.gOligo = intersect(getchildtreeids(data,gOId), allPaintIds);
+nType.gOther = setdiff(nType.g,[nType.gAstrocyte; nType.gOligo]);
+
+x = setdiff(allPaintIds, [nType.a;nType.d;nType.g])
+x1 = [nType.dOther; nType.aOther; nType.gOther];
+
+% Handful of processes that seem to be "scrap" - RAMONGeneric like glia
+% TODO:  35 processes that are unknown out of ~6000
+%x = 0.5% of the data
+
+%% Construct prototype object
+
+s = []; sidx = [];
+
+for i = 1:length(allPaintIds)
+    s(i).id = allPaintIds(i);
+    s(i).name = name{allPaintIds(i)};
+    
+    parent = pp(i);
+    if parent == -1
+        parent = allPaintIds(i); %own parent
+    end
+        s(i).neuron = parent + 10000; %by construction
+    
+    % assign dendrite specific fields
+    if ismember(allPaintIds(i), nType.d)
+        s(i).segment_class = eRAMONSegmentClass.dendrite;
+        
+        if ismember(allPaintIds(i), nType.dSmooth)
+            s(i).segment_subtype = 'smooth';
+        elseif ismember(allPaintIds(i), nType.dSpiny)
+            s(i).segment_subtype = 'spiny';
+        else
+            s(i).segment_subtype = 'other';
+        end
+        
+        % assign spines
+        if ismember(allPaintIds(i), nType.spines)
+            s(i).is_spine = 1;
+        else
+            s(i).is_spine = 0;
+        end
+        
+    elseif ismember(allPaintIds(i), nType.a)
+        s(i).segment_class = eRAMONSegmentClass.axon;
+        
+        if ismember(allPaintIds(i), nType.aExcitatory)
+            s(i).segment_subtype = 'excitatory';
+        elseif ismember(allPaintIds(i), nType.aInhibitory)
+            s(i).segment_subtype = 'inhibitory';
+        elseif ismember(allPaintIds(i), nType.aMyelinated)
+            s(i).segment_subtype = 'myelinated';
+        else
+            s(i).segment_subtype = 'other';
+        end
+    elseif ismember(allPaintIds(i), nType.g)
+        s(i).segment_class = eRAMONSegmentClass.unknown;
+        
+        if ismember(allPaintIds(i), nType.gAstrocyte)
+            s(i).segment_subtype = 'glia_astrocyte';
+        elseif ismember(allPaintIds(i), nType.gOligo)
+            s(i).segment_subtype = 'glia_oligodendrocyte';
+        else % ismember(allPaintIds(i), nType.gOther)
+            s(i).segment_subtype = 'glia_other';
+        end% id
+    end
+end
+
+%% Create neurons - reverse lookup
+n = [];
+nAll = unique([s.neuron]);
+sidAll = [s.id];
+snidAll = [s.neuron];
+for i = 1:length(nAll)
+    n(i).id = nAll(i);
+    % reverse lookup
+    idxR = find(nAll(i) == snidAll);
+    idxRR(i) = length(idxR);
+    n(i).neuron_segment = sidAll(idxR);
+end
+%%
+% name
+% cyl 1
+% cyl 2
+% cyl 3
+% size
+% object type
+% isGlia
+% isSpine
+
+% isBouton <- not directly in data
+
+% parent
+% neuron class
+
+% derived
+%   children (seg - syn is explicit)
+%   children (neu - seg)
+% id
+% isSpine
+% isBouton
+
+% axon length
+% spine apparatus
+%%
+for i = 1:length(allPaintIds)
+    
+    s(end+1).id = allPaintIds(i);
+    sidx(end+1,1) = allPaintIds(i);
+end
+
+% TODO Delete dead objects?
+
+
+%% Linking Metadata
+
+%% Presenting Metadata in a standard format
 %% Determine bounds
 addpath(genpath(pwd))
 
@@ -109,15 +313,15 @@ ves.setCutout(temp); clear temp
 if 0
     !wget http://openconnecto.me/data/public/kasthuri2015/kat11segments.tar.gz
     %unzipped file of seg1ments from Bobby
-    segments_location = 'kasthurietal14_segments_paper';
+    segments_location = '/Users/graywr1/code/kasthuri/kat11segments'%'kasthurietal14_segments_paper';
     
     cd(segments_location)
     allPaintIds = uint32([]);
     f = dir('*.png');
-    for i = 1:length(f)
+    for i = 1225:length(f)
         i
         im = single(imread(f(i).name));
-        im = rgbdecode(im);
+        im = uint32(rgbdecode(im));
         allPaintIds = union(unique(im(:)),allPaintIds);
     end
     
@@ -127,76 +331,6 @@ end
 %%  add daniels scripts
 
 % Get directly from DB
-allPaintIds = unique(seg.data);
-allPaintIds(allPaintIds == 0) = [];
-
-[name,data,firstelement]=scanvastcolorfile('Threecylindermerge_May08_db14_export.txt',1);
-
-% Get childtreeids for all objects
-for i = 1:length(allPaintIds)
-    z{i} = getchildtreeids(data,allPaintIds(i));
-end
-
-% Anything that has a child will need to be merged into neurons
-
-% Anything that has no children might be a spine
-z = 1:length(name);
-
-meta = z(~ismember(z,allPaintIds));
-
-%% Get all parents
-clear p pp
-pp = -1*ones(length(allPaintIds),1);
-for i = 1:length(allPaintIds)
-    i
-    p = getparent(data,allPaintIds(i));
-    
-    while p > 0 && ~ismember(p,meta) %no match; object has paint
-        pp(i) = p;
-        p = getparent(data,p);
-    end
-end
-
-% These lists are hand curated, by grepping for things like
-spineId = [422, 1403, 1064, 1554, 2066, 2147, 2276, 2325, 2538, 3155, 3242]; %All spines (manually curated)
-dId = 6149; %All dendrites
-dSpinyId = 6702; %Spiny dendrites
-dSmoothId = 4716; %Smooth dendrites
-aId = 1408; %All Axons
-aEId = 3682; %Excitatory
-aIId = 4141; %Inhibitory
-aMId = 6130; %Myelinated
-
-gId = 4245; %Glia
-gAId = 6705; %Astrocytes
-gOId = 6707; %Oligodendrocytes
-
-nType.d = intersect(getchildtreeids(data,dId),allPaintIds);
-
-nType.dSpiny = intersect(getchildtreeids(data,dSpinyId),allPaintIds);
-nType.dSmooth = intersect(getchildtreeids(data,dSmoothId),allPaintIds);
-nType.spines = intersect(getchildtreeids(data,spineId),allPaintIds);
-nType.dOther = setdiff(d,[nType.dSpiny; nType.dSmooth]); %dOther is empty if spines disregarded
-
-% Axons
-
-nType.a = intersect(getchildtreeids(data,aId),allPaintIds);
-nType.aExcitatory =  intersect(getchildtreeids(data,aEId),allPaintIds);
-nType.aInhibitory = intersect(getchildtreeids(data,aIId),allPaintIds);
-nType.aMyelinate = intersect(getchildtreeids(data,aMId),allPaintIds);
-nType.aOther = setdiff(a,[nType.aExcitatory; nType.aInhibitory; nType.aMyelinate]);
-% Glia
-
-nType.g = intersect(getchildtreeids(data,gId), allPaintIds);
-nType.gAstrocyte = intersect(getchildtreeids(data,gAId), allPaintIds);
-nType.gOligo = intersect(getchildtreeids(data,gOId), allPaintIds);
-nType.gOther = setdiff(g,[nType.gAstrocyte; nType.gOligo]);
-
-x = setdiff(allPaintIds, [a;d;g])
-x1 = [dOther; aOther; gOther];
-
-% Handful of processes that seem to be "scrap" - RAMONGeneric like glia
-% TODO:  35 processes that are unknown out of ~6000
 
 %% Now need to upload.
 % JUST NEED TO DOUBLE CHECK INDEXING
