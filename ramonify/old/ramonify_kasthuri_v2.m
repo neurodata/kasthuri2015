@@ -2,10 +2,6 @@
 % v2
 % W. Gray Roncal
 
-% New plan - the synapse spreadsheet is the dominating force, because it
-% was used for the primary analyses
-
-
 uploadToken = 'kasthuri2015_ramon_v2'%'kasthuri2015_ramon_v1';
 
 % In this version, we automagically convert the VAST/Synapse spreadsheet
@@ -26,100 +22,36 @@ uploadToken = 'kasthuri2015_ramon_v2'%'kasthuri2015_ramon_v1';
 
 % Vesicles need to be be broken into distinct objects
 
-%% Parsing segmentation
+%% Get all segment data
+clear im
+oo = OCP();
+oo.setAnnoToken('kat11segments');
+oo.setAnnoChannel('annotation');
 
-% Get all unique IDs
-% Use IDs from spreadsheet to be sure all core objects are correct; augment
-% with manually curated labels (below)
-% Add spines from both places
-% Add parents from spreadsheet as appropriate 
-% - all axons and dendrites are "neurons"
-% - anything not an axon or dendrite or spine in sheet will need to use
-% parent lookup
-% Merge those together
+q = OCPQuery;
+q.setType(eOCPQueryType.annoDense);
+im = uint16(zeros(3327,2687,1850));
+%
+for z = 1:16:1850
+    z
+startIdx = z;
+stopIdx = min(1851,z+16);
+q.setCutoutArgs([0,2687],[0,3327],[startIdx, stopIdx],3);
+temp = oo.query(q);
+im(:,:,startIdx:stopIdx-1) = temp.data;
+end
 
-% Upload segments and neurons
+seg = RAMONVolume;
+seg.setCutout(im);
+clear im
 
-% Do claims
-
-
-% synapses are a thing - match closest as possible
-% then remaining are just hanging out
-
-
-% Question:  bouton labels 
-%- other synapses, other out of 3 cylinder volume
-% missing objects
 
 %% Parsing Metadata
 
 % Mitochondria and Vesicles have generic metadata, so should all be the
 % same
 
-%% GET DATA
-tic
-
-oo = OCP();
-oo.setAnnoToken('kat11greencylinder');
-xbox = [694,1794]; %cleaning up for ease of remembering
-ybox = [1750, 2460];
-zbox = [1004, 1379];
-xbox1 = xbox*4;
-ybox1 = ybox*4;
-res1 = 1;
-res = 3;
-q = OCPQuery;
-q.setType(eOCPQueryType.annoDense);
-q.setCutoutArgs([xbox(1),xbox(2)],[ybox(1),ybox(2)],[zbox(1),zbox(2)],res);
-
-oo.setAnnoToken('kat11greencylinder');
-c1 = oo.query(q);
-
-oo.setAnnoToken('kat11mojocylinder');
-c2 = oo.query(q);
-
-oo.setAnnoToken('kat11redcylinder');
-c3 = oo.query(q);
-
-cc = (c1.data+c2.data+c3.data);
-C = RAMONVolume; C.setCutout(cc);
-%image(C)
-oo.setAnnoToken('kat11segments');
-seg = oo.query(q);
-
-oo.setAnnoToken('kat11synapses');
-syn = oo.query(q);
-
-oo.setAnnoToken('kat11mito');
-mito = oo.query(q);
-
-% TODO - these probably need to be processed at scale 1, because they are
-% small and will merge at downsampled resolutions
-oo.setAnnoToken('kat11vesicles');
-ves = oo.query(q);
-toc
-
-% Mask out cylinders
-mask = (c1.data + c2.data + c3.data) > 0;
-
-temp = seg.data;
-temp(mask == 0) = 0;
-seg.setCutout(temp); clear temp
-
-temp = syn.data;
-temp(mask == 0) = 0;
-syn.setCutout(temp); clear temp
-
-temp = mito.data;
-temp(mask == 0) = 0;
-mito.setCutout(temp); clear temp
-
-temp = ves.data;
-temp(mask == 0) = 0;
-ves.setCutout(temp); clear temp
-
-
-%% Segment Metadata 
+%% Segment Metadata
 
 %For segments - identify all segments present in the paint
 allPaintIds = [];
@@ -157,7 +89,6 @@ for i = 1:length(allPaintIds)
     end
 end
 
-
 % These lists are hand curated, by grepping for things like
 spineId = [422, 1403, 1064, 1554, 2066, 2147, 2276, 2325, 2538, 3155, 3242]; %All spines (manually curated)
 dId = 6149; %All dendrites
@@ -171,17 +102,11 @@ gId = 4245; %Glia
 gAId = 6705; %Astrocytes
 gOId = 6707; %Oligodendrocytes
 
-% Add ids from the synapse spreadsheet
-syntext = importdata('mmc2.xls');
-synIdMap = syntext.data(3:end,1); % known
-spineMap = syntext.data(3:end,21); % known
-axonMap = syntext.data(3:end,9); % known
-dendriteMap = syntext.data(3:end,10); % known
-
 nType.d = intersect(getchildtreeids(data,dId),allPaintIds);
+
 nType.dSpiny = intersect(getchildtreeids(data,dSpinyId),allPaintIds);
 nType.dSmooth = intersect(getchildtreeids(data,dSmoothId),allPaintIds);
-nType.spines = intersect(unique([getchildtreeids(data,spineId)';spineMap]),allPaintIds); %pull spines from vast + spreadsheet
+nType.spines = intersect(getchildtreeids(data,spineId),allPaintIds);
 nType.dOther = setdiff(nType.d,[nType.dSpiny; nType.dSmooth]); %dOther is empty if spines disregarded
 
 % Axons
@@ -212,7 +137,7 @@ s = []; sidx = [];
 for i = 1:length(allPaintIds)
     s(i).id = allPaintIds(i);
     s(i).name = name{allPaintIds(i)};
-    s(i).resolution = seg.resolution;
+    
     parent = pp(i);
     if parent == -1
         parent = allPaintIds(i); %own parent
@@ -272,81 +197,9 @@ for i = 1:length(nAll)
     n(i).id = nAll(i);
     % reverse lookup
     idxR = find(nAll(i) == snidAll);
-    %idxRR(i) = length(idxR);
+    idxRR(i) = length(idxR);
     n(i).neuron_segment = sidAll(idxR);
 end
-
-%% UPLOAD
-
-oo = OCP();
-oo.setAnnoToken(uploadToken);
-oo.setAnnoChannel('neurons');
-seg.setChannel('neurons');
-oo.createAnnotation(seg)
-%%
-oo.setAnnoToken(uploadToken);
-oo.setAnnoChannel('neurons_meta');
-for i = 1:length(s)
-    i
-    S = RAMONSegment;
-    S.setId(s(i).id);
-    S.setName(s(i).name);
-    S.setNeuron(s(i).neuron);
-    S.setClass(s(i).segment_class);
-    S.setResolution(s(i).resolution);
-    S.addDynamicMetadata('segment_subtype',s(i).segment_subtype);
-    
-    is_spine = 0;
-    if isfield(s(i),'is_spine')
-        is_spine = s(i).is_spine;
-    end
-    S.addDynamicMetadata('is_spine', is_spine);
-    S.addDynamicMetadata('spine_str',num2str(is_spine));
-    oo.createAnnotation(S);    
-end
-
-%%
-
-for i = 1:length(n)
-    i
-    N = RAMONNeuron;
-    N.setId(n(i).id);
-    N.setSegments(n(i).neuron_segment);
-    oo.createAnnotation(N);
-end
-
-%%
-oo.setAnnoToken(uploadToken);
-oo.setAnnoChannel('neurons')
-q = OCPQuery;
-q.setType(eOCPQueryType.RAMONMetaOnly);
-q.setResolution(3);
-
-%318, 1669, 2186,2190,3083, 3148, 3150, 3194 TODO
-for i = 3195:length(s)
-i
-    q.setId(s(i).id);
-    try
-    ss = oo.query(q);
-    catch
-        continue
-    end
-    sp = ss.dynamicMetadata('is_spine');
-    if isempty(sp)
-        sp = 0;
-    end
-    ss.updateDynamicMetadata('is_spine',0);
-    ss.addDynamicMetadata('spine',num2str(sp));
-    ss.setResolution(3);
-    try
-    oo.updateAnnotation(ss);
-    catch
-        disp('skipping')
-    end
-end
-
-
-
 %%
 % name
 % cyl 1
@@ -479,7 +332,7 @@ mito.setCutout(temp); clear temp
 temp = ves.data;
 temp(mask == 0) = 0;
 ves.setCutout(temp); clear temp
-here!
+
 
 %% % Ramonify Example
 
@@ -706,29 +559,3 @@ neuChannel = 'neurons';
 neuResolution = 3;
 edgeList = graph_retrieval(synLocation, synToken, synChannel, synResolution, [], neuLocation, neuToken, neuChannel, neuResolution, 0)
 attredgeWriter(edgeList,'kasthuri_graph_v1.attredge')
-
-
-%% 
-%% Get all segment data
-clear im
-oo = OCP();
-oo.setAnnoToken('kat11segments');
-oo.setAnnoChannel('annotation');
-
-q = OCPQuery;
-q.setType(eOCPQueryType.annoDense);
-im = uint16(zeros(3327,2687,1850));
-%
-for z = 1:16:1850
-    z
-startIdx = z;
-stopIdx = min(1851,z+16);
-q.setCutoutArgs([0,2687],[0,3327],[startIdx, stopIdx],3);
-temp = oo.query(q);
-im(:,:,startIdx:stopIdx-1) = temp.data;
-end
-
-seg = RAMONVolume;
-seg.setCutout(im);
-clear im
-
