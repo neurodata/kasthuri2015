@@ -87,15 +87,20 @@ end
 
 c
 
+ireject
 % 145 has no assignment, possibly because it was already taken
 % for now, just drop a 7x7x3 box - this is broken
 
-xx = round(synLoc(145,:));
-synOut(xx(2)-3:xx(2)+3,xx(1)-3:xx(1)+3, xx(3)-1:xx(3)+1) = 145;
+if sum(ireject == 145) > 0
+    xx = round(synLoc(145,:));
+    synOut(xx(2)-3:xx(2)+3,xx(1)-3:xx(1)+3, xx(3)-1:xx(3)+1) = 145;
+end
 
 % 268 has no assignment, possibly because it was already taken
-xx = round(synLoc(268,:));
-synOut(xx(2)-3:xx(2)+3,xx(1)-3:xx(1)+3, xx(3)-1:xx(3)+1) = 145;
+if sum(ireject == 268) > 0
+    xx = round(synLoc(268,:));
+    synOut(xx(2)-3:xx(2)+3,xx(1)-3:xx(1)+3, xx(3)-1:xx(3)+1) = 145;
+end
 
 syn = RAMONVolume;
 syn.setCutout(synOut);

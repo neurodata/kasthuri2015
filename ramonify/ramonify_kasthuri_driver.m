@@ -1,8 +1,9 @@
 % ramonify_kasthuri_driver
 % written in a modular fashion to simplify things
-run('~/code/cajal/cajal.m')
-uploadToken = 'kasthuri2015_ramon_v3';
+run('~/code/cajal-master/cajal.m')
+uploadToken = 'kasthuri2015_ramon_v4';
 
+ramonify_get_data
 % input is token, self contained (bc lack of deps)
 % output is uploaded RAMONData
 ramonify_vesicle_mito

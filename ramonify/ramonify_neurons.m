@@ -118,7 +118,7 @@ intersect(allPaintIds,[5194,6704,4800,5113]) %parents are containers
 % Which of these are not-parents
 parents = allPaintIds(pp==-1);
 setdiff(ss_axon,parents)
-
+setdiff(ss_dendrite,parents)
 % for each non-parent, get a segment
 % for each parent get a segment and a neuron
 

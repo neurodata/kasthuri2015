@@ -46,7 +46,7 @@ for i = 1:length(synIdMap)
         y(i).axonSynapseType = 'en-passant';
     else
         y(i).axonSynapseType = 'unknown';
-    end    
+    end
     
     if spineMap(i) > 0
         dlink = spineMap(i);
@@ -55,9 +55,6 @@ for i = 1:length(synIdMap)
     end
     
     alink = axonMap(i);
-    
-    y(i).presynaptic = alink;
-    y(i).postsynaptic = dlink;
     
     ii = find(ss == alink);
     try
@@ -76,7 +73,7 @@ for i = 1:length(synIdMap)
             ii = find(ss == alink);
             s(ii).synapses = [s(ii).synapses, alink];
         else
-        c = c+1;
+            c = c+1;
         end
     end
     
@@ -96,8 +93,11 @@ for i = 1:length(synIdMap)
             ii = find(ss == dlink);
             s(ii).synapses = [s(ii).synapses, dlink];
         else
-        c = c+1;
+            c = c+1;
         end
     end
+    y(i).presynaptic = alink;
+    y(i).postsynaptic = dlink;
+    
 end
 

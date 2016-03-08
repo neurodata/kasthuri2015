@@ -54,22 +54,26 @@ end
 
 
 
-clear o
 
-for i = 1:v_label.NumObjects    
-    if mod(i,1000) == 0
-        sprintf('Now processing vesicle %d of %d...\n',i,v_label.NumObjects)
+for i = 1:1000:v_label.NumObjects
+    sprintf('Now processing vesicle %d of %d...\n',i,v_label.NumObjects)
+    start = i;
+    stop = min(v_label.NumObjects, i+999);
+    cc = 1;
+    clear o
+    for j = start:stop
+        
+        
+        o{cc} = RAMONOrganelle;
+        o{cc}.setId(j)
+        o{cc}.setClass(eRAMONOrganelleClass.vesicle);
+        o{cc}.setResolution(1);
     end
-
-    o{i} = RAMONOrganelle;
-    o{i}.setClass(eRAMONOrganelleClass.vesicle);
-    o{i}.setResolution(1);
+    oo.createAnnotation(o)
+    tic
+    
+    toc
 end
-
-tic
-oo.createAnnotation(o)
-toc
-
 
 
 %% MITOCHONDRIA
