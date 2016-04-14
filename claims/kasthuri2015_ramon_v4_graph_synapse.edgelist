@@ -1,0 +1,3896 @@
+16384 type axon
+16385 type axon
+16386 type axon
+3 type spine
+4 type spine
+16389 type axon
+16390 type axon
+16391 type axon
+16392 type axon
+16393 type axon
+16394 type axon
+16395 type axon
+16396 type axon
+16397 type axon
+16398 type axon
+16399 type axon
+16401 type axon
+16402 type axon
+16403 type axon
+20 type spine
+21 4745 {'weight': 1}
+21 type spine
+22 type spine
+23 type spine
+23 4462 {'weight': 1}
+16408 type axon
+25 type spine
+26 type spine
+27 type spine
+28 type spine
+29 type spine
+29 3686 {'weight': 1}
+16414 type axon
+31 4008 {'weight': 1}
+31 type spine
+32 type spine
+32 3725 {'weight': 1}
+33 3929 {'weight': 1}
+33 type spine
+34 type spine
+34 3902 {'weight': 1}
+35 4008 {'weight': 1}
+35 type spine
+36 3689 {'weight': 1}
+36 type spine
+37 type spine
+37 3702 {'weight': 1}
+38 type spine
+16423 type axon
+40 3891 {'weight': 1}
+40 type spine
+41 type spine
+42 4073 {'weight': 1}
+42 type spine
+16427 type axon
+16429 type axon
+16430 type axon
+47 type spine
+16433 type axon
+16434 type axon
+51 type spine
+16437 type axon
+16438 type axon
+16440 type axon
+57 type spine
+58 type spine
+58 3837 {'weight': 1}
+59 type spine
+59 3837 {'weight': 1}
+60 type spine
+61 type spine
+61 3837 {'weight': 1}
+62 3833 {'weight': 1}
+62 type spine
+16447 type axon
+64 type spine
+65 type spine
+65 3837 {'weight': 1}
+16450 type axon
+16451 type axon
+16453 type axon
+16454 type axon
+16455 type axon
+16456 type axon
+16457 type axon
+16458 type axon
+16459 type axon
+76 4234 {'weight': 1}
+76 type spine
+77 3752 {'weight': 1}
+77 type spine
+78 4194 {'weight': 1}
+78 type spine
+79 4208 {'weight': 1}
+79 type spine
+80 type spine
+80 4014 {'weight': 1}
+81 6492 {'weight': 1}
+81 type spine
+16466 type axon
+16467 type axon
+16468 type axon
+16469 type axon
+16470 type axon
+16471 type axon
+16472 type axon
+16473 type axon
+16474 type axon
+16475 type axon
+16477 type axon
+16478 type axon
+16479 type axon
+16481 type axon
+16482 type axon
+99 3753 {'weight': 1}
+99 type spine
+100 3844 {'weight': 1}
+100 type spine
+101 4064 {'weight': 1}
+101 type spine
+102 5867 {'weight': 1}
+102 type spine
+103 6456 {'weight': 1}
+103 type spine
+104 type spine
+104 1399 {'weight': 1}
+105 type spine
+105 6613 {'weight': 1}
+106 4227 {'weight': 1}
+106 type spine
+107 type spine
+107 1399 {'weight': 1}
+108 3688 {'weight': 1}
+108 type spine
+109 3876 {'weight': 1}
+109 type spine
+110 4074 {'weight': 1}
+110 type spine
+111 type spine
+111 3742 {'weight': 1}
+112 type spine
+112 1399 {'weight': 1}
+113 3836 {'weight': 1}
+113 type spine
+114 866 {'weight': 1}
+114 type spine
+115 866 {'weight': 1}
+115 type spine
+116 type spine
+116 6550 {'weight': 1}
+117 3777 {'weight': 1}
+117 type spine
+118 type spine
+118 4014 {'weight': 1}
+119 5074 {'weight': 1}
+119 type spine
+120 3724 {'weight': 1}
+120 type spine
+121 type spine
+121 3870 {'weight': 1}
+122 type spine
+122 3687 {'weight': 1}
+123 type spine
+123 1399 {'weight': 1}
+124 type spine
+124 3702 {'weight': 1}
+125 type spine
+125 4967 {'weight': 1}
+126 3688 {'weight': 1}
+126 type spine
+127 3716 {'weight': 1}
+127 type spine
+128 type spine
+128 3855 {'weight': 1}
+129 3688 {'weight': 1}
+129 type spine
+130 type spine
+131 type spine
+131 3703 {'weight': 1}
+132 type spine
+133 5571 {'weight': 1}
+133 type spine
+134 type spine
+135 type spine
+135 4021 {'weight': 1}
+136 3716 {'weight': 1}
+136 type spine
+137 5049 {'weight': 1}
+137 type spine
+138 4088 {'weight': 1}
+138 type spine
+139 type spine
+139 3814 {'weight': 1}
+140 type spine
+140 3830 {'weight': 1}
+141 864 {'weight': 1}
+141 type spine
+142 type spine
+142 4133 {'weight': 1}
+143 type spine
+143 3703 {'weight': 1}
+144 3834 {'weight': 1}
+144 type spine
+145 4176 {'weight': 1}
+145 type spine
+146 type spine
+146 3823 {'weight': 1}
+147 4058 {'weight': 1}
+147 type spine
+148 type spine
+148 5038 {'weight': 1}
+149 type spine
+149 3965 {'weight': 1}
+150 3979 {'weight': 1}
+150 type spine
+151 type spine
+151 3773 {'weight': 1}
+152 type spine
+153 type spine
+154 3960 {'weight': 1}
+154 type spine
+155 type spine
+155 3773 {'weight': 1}
+156 4970 {'weight': 1}
+156 type spine
+157 type spine
+157 3982 {'weight': 1}
+158 type spine
+159 type spine
+160 type spine
+160 3830 {'weight': 1}
+161 3834 {'weight': 1}
+161 type spine
+162 type spine
+163 3923 {'weight': 1}
+163 type spine
+164 4091 {'weight': 1}
+164 type spine
+165 3692 {'weight': 1}
+165 type spine
+166 type spine
+166 3703 {'weight': 1}
+167 3923 {'weight': 1}
+167 type spine
+168 type spine
+168 4063 {'weight': 1}
+169 type spine
+169 6622 {'weight': 1}
+170 type spine
+170 4045 {'weight': 1}
+171 type spine
+171 4014 {'weight': 1}
+172 type spine
+172 4558 {'weight': 1}
+173 6284 {'weight': 1}
+173 type spine
+174 type spine
+175 4156 {'weight': 1}
+175 type spine
+176 type spine
+177 type spine
+178 3764 {'weight': 1}
+178 type spine
+179 type spine
+179 3854 {'weight': 1}
+180 5867 {'weight': 1}
+180 type spine
+181 3752 {'weight': 1}
+181 type spine
+182 6184 {'weight': 1}
+182 type spine
+183 type spine
+183 5757 {'weight': 1}
+184 6628 {'weight': 1}
+184 type spine
+185 6236 {'weight': 1}
+185 type spine
+186 type spine
+186 4455 {'weight': 1}
+187 3810 {'weight': 1}
+187 type spine
+188 type spine
+188 6349 {'weight': 1}
+189 type spine
+190 type spine
+190 4607 {'weight': 1}
+191 type spine
+191 4174 {'weight': 1}
+16416 type axon
+16579 type axon
+196 type spine
+196 3838 {'weight': 1}
+13686 type axon
+16582 type axon
+16417 type axon
+16584 type axon
+16585 type axon
+16586 type axon
+203 4152 {'weight': 1}
+203 type spine
+16589 type axon
+16590 type axon
+16592 type axon
+13688 type axon
+16594 type axon
+211 4555 {'weight': 1}
+211 type spine
+16596 type axon
+16597 type axon
+16598 type axon
+16599 type axon
+16600 type axon
+16602 type axon
+16604 type axon
+13690 type axon
+16606 type axon
+16421 type axon
+16608 type axon
+16609 type axon
+16610 type axon
+13691 type axon
+16612 type axon
+16422 type axon
+16614 type axon
+16616 type axon
+16618 type axon
+16619 type axon
+16620 type axon
+16622 type axon
+16623 type axon
+16424 type axon
+16626 type axon
+16627 type axon
+16628 type axon
+16629 type axon
+16630 type axon
+16425 type axon
+16632 type axon
+16633 type axon
+16634 type axon
+16426 type axon
+16638 type axon
+16640 type axon
+16641 type axon
+16642 type axon
+16643 type axon
+16645 type axon
+16647 type axon
+16648 type axon
+16649 type axon
+16651 type axon
+16652 type axon
+16654 type axon
+16655 type axon
+16656 type axon
+16657 type axon
+16658 type axon
+275 type spine
+275 6613 {'weight': 1}
+276 6467 {'weight': 1}
+276 type spine
+277 5867 {'weight': 1}
+277 type spine
+278 type spine
+278 6245 {'weight': 1}
+279 6259 {'weight': 1}
+279 type spine
+280 type spine
+280 6437 {'weight': 1}
+281 6321 {'weight': 1}
+281 type spine
+282 3848 {'weight': 1}
+282 type spine
+283 6273 {'weight': 1}
+283 type spine
+284 type spine
+285 6491 {'weight': 1}
+285 type spine
+286 type spine
+286 6255 {'weight': 1}
+287 3752 {'weight': 1}
+287 type spine
+288 type spine
+289 type spine
+289 5757 {'weight': 1}
+290 type spine
+290 6479 {'weight': 1}
+291 type spine
+291 6462 {'weight': 1}
+292 type spine
+292 6542 {'weight': 1}
+293 6529 {'weight': 1}
+293 type spine
+294 type spine
+294 6319 {'weight': 1}
+295 type spine
+295 6518 {'weight': 1}
+296 6280 {'weight': 1}
+296 type spine
+297 6657 {'weight': 1}
+297 type spine
+298 6210 {'weight': 1}
+298 type spine
+299 6210 {'weight': 1}
+299 type spine
+300 6336 {'weight': 1}
+300 type spine
+16685 type axon
+302 type spine
+302 6381 {'weight': 1}
+13704 type axon
+16690 type axon
+16435 type axon
+16693 type axon
+16694 type axon
+13705 type axon
+16696 type axon
+16699 type axon
+16700 type axon
+13706 type axon
+16706 type axon
+13707 type axon
+327 type spine
+331 type spine
+331 6349 {'weight': 1}
+332 type spine
+334 type spine
+14196 type axon
+16442 type axon
+13712 type axon
+16443 type axon
+359 type spine
+359 6159 {'weight': 1}
+16444 type axon
+364 6339 {'weight': 1}
+364 type spine
+16445 type axon
+374 5809 {'weight': 1}
+374 type spine
+375 type spine
+5524 type spine
+5524 4151 {'weight': 1}
+5525 type spine
+5525 5765 {'weight': 1}
+16448 type axon
+5526 5233 {'weight': 1}
+5526 type spine
+16449 type axon
+13719 type axon
+13720 type axon
+13721 type axon
+13722 type axon
+419 4688 {'weight': 1}
+419 type spine
+424 864 {'weight': 1}
+424 type spine
+425 type spine
+425 3918 {'weight': 1}
+428 3688 {'weight': 1}
+428 type spine
+429 type spine
+429 3847 {'weight': 1}
+430 type spine
+430 3703 {'weight': 1}
+431 3688 {'weight': 1}
+431 type spine
+432 3760 {'weight': 1}
+432 type spine
+433 867 {'weight': 1}
+433 type spine
+434 type spine
+434 3854 {'weight': 1}
+435 3856 {'weight': 1}
+435 type spine
+437 type spine
+438 type spine
+439 type spine
+441 3868 {'weight': 1}
+441 type spine
+443 3772 {'weight': 1}
+443 type spine
+444 type spine
+444 4071 {'weight': 1}
+445 type spine
+446 866 {'weight': 1}
+446 type spine
+452 4033 {'weight': 1}
+452 type spine
+455 type spine
+456 type spine
+456 4006 {'weight': 1}
+457 type spine
+13730 type axon
+462 3852 {'weight': 1}
+462 type spine
+16461 type axon
+464 type spine
+14200 type axon
+16462 type axon
+13732 type axon
+474 type spine
+474 3758 {'weight': 1}
+475 type spine
+475 3758 {'weight': 1}
+476 type spine
+476 3863 {'weight': 1}
+477 type spine
+477 3718 {'weight': 1}
+478 type spine
+478 4071 {'weight': 1}
+16464 type axon
+484 4052 {'weight': 1}
+484 type spine
+485 3907 {'weight': 1}
+485 type spine
+486 3912 {'weight': 1}
+486 type spine
+487 type spine
+487 3957 {'weight': 1}
+489 type spine
+13736 type axon
+13738 type axon
+6018 5414 {'weight': 1}
+13740 type axon
+14202 type axon
+13741 type axon
+5551 4224 {'weight': 1}
+5551 type spine
+13744 type axon
+13745 type axon
+13746 type axon
+5555 4083 {'weight': 1}
+5555 type spine
+13749 type axon
+13750 type axon
+5559 4412 {'weight': 1}
+5559 type spine
+13752 type axon
+16483 type axon
+16484 type axon
+5562 type spine
+5562 3965 {'weight': 1}
+16485 type axon
+16387 type axon
+16486 type axon
+6387 1030 {'weight': 1}
+16487 type axon
+16488 type axon
+5566 type spine
+5566 5287 {'weight': 1}
+631 3876 {'weight': 1}
+631 type spine
+632 type spine
+634 3747 {'weight': 1}
+634 type spine
+5567 5614 {'weight': 1}
+637 3755 {'weight': 1}
+637 type spine
+638 type spine
+640 type spine
+640 6479 {'weight': 1}
+641 type spine
+642 6675 {'weight': 1}
+642 type spine
+643 6632 {'weight': 1}
+643 type spine
+644 type spine
+645 6297 {'weight': 1}
+645 type spine
+646 type spine
+646 6613 {'weight': 1}
+647 6492 {'weight': 1}
+647 type spine
+16492 type axon
+652 type spine
+652 6479 {'weight': 1}
+653 6314 {'weight': 1}
+653 type spine
+654 type spine
+654 4558 {'weight': 1}
+656 4452 {'weight': 1}
+656 type spine
+657 type spine
+657 6613 {'weight': 1}
+658 6577 {'weight': 1}
+658 type spine
+659 6273 {'weight': 1}
+659 type spine
+660 type spine
+661 type spine
+661 6215 {'weight': 1}
+662 type spine
+662 6638 {'weight': 1}
+5572 5138 {'weight': 1}
+669 type spine
+669 6303 {'weight': 1}
+16496 type axon
+674 type spine
+675 3755 {'weight': 1}
+675 type spine
+5574 5326 {'weight': 1}
+16498 type axon
+5576 5191 {'weight': 1}
+16499 type axon
+696 6666 {'weight': 1}
+696 type spine
+697 type spine
+701 type spine
+702 type spine
+702 3879 {'weight': 1}
+16501 type axon
+13771 type axon
+708 6427 {'weight': 1}
+708 type spine
+16502 type axon
+713 type spine
+16503 type axon
+718 3722 {'weight': 1}
+718 type spine
+719 type spine
+16504 type axon
+13774 type axon
+16505 type axon
+729 type spine
+13775 type axon
+16506 type axon
+13776 type axon
+16507 type axon
+16508 type axon
+13778 type axon
+16509 type axon
+16510 type axon
+13780 type axon
+13781 type axon
+16512 type axon
+13782 type axon
+16513 type axon
+13783 type axon
+13784 type axon
+13785 type axon
+792 type spine
+793 4443 {'weight': 1}
+793 type spine
+794 type spine
+794 3702 {'weight': 1}
+796 type spine
+797 type spine
+797 3957 {'weight': 1}
+798 type spine
+798 3951 {'weight': 1}
+799 type spine
+800 type spine
+800 3822 {'weight': 1}
+801 3708 {'weight': 1}
+801 type spine
+802 4089 {'weight': 1}
+802 type spine
+803 4179 {'weight': 1}
+803 type spine
+804 type spine
+804 5230 {'weight': 1}
+805 4178 {'weight': 1}
+805 type spine
+806 4178 {'weight': 1}
+806 type spine
+807 type spine
+808 5288 {'weight': 1}
+808 type spine
+809 type spine
+809 3951 {'weight': 1}
+810 type spine
+810 3759 {'weight': 1}
+811 type spine
+811 4239 {'weight': 1}
+812 type spine
+812 4414 {'weight': 1}
+813 5739 {'weight': 1}
+813 type spine
+814 5683 {'weight': 1}
+814 type spine
+815 type spine
+815 5293 {'weight': 1}
+816 type spine
+816 5294 {'weight': 1}
+817 type spine
+817 5293 {'weight': 1}
+818 type spine
+818 3791 {'weight': 1}
+819 3824 {'weight': 1}
+819 type spine
+820 3683 {'weight': 1}
+820 type spine
+821 3928 {'weight': 1}
+821 type spine
+822 5218 {'weight': 1}
+822 type spine
+823 3852 {'weight': 1}
+823 type spine
+824 type spine
+824 3791 {'weight': 1}
+825 5744 {'weight': 1}
+825 type spine
+826 3755 {'weight': 1}
+826 type spine
+827 5372 {'weight': 1}
+827 type spine
+828 3992 {'weight': 1}
+828 type spine
+829 type spine
+829 5694 {'weight': 1}
+830 4410 {'weight': 1}
+830 type spine
+831 type spine
+832 3786 {'weight': 1}
+832 type spine
+833 5289 {'weight': 1}
+833 type spine
+834 4456 {'weight': 1}
+834 type spine
+835 type spine
+835 5230 {'weight': 1}
+836 5801 {'weight': 1}
+836 type spine
+837 type spine
+838 5234 {'weight': 1}
+838 type spine
+839 4048 {'weight': 1}
+839 type spine
+840 6042 {'weight': 1}
+840 type spine
+841 3988 {'weight': 1}
+841 type spine
+842 5305 {'weight': 1}
+842 type spine
+843 type spine
+843 3814 {'weight': 1}
+844 type spine
+845 type spine
+846 4076 {'weight': 1}
+846 type spine
+847 type spine
+847 4031 {'weight': 1}
+848 4056 {'weight': 1}
+848 type spine
+849 type spine
+849 4095 {'weight': 1}
+850 type spine
+850 4414 {'weight': 1}
+851 4064 {'weight': 1}
+851 type spine
+852 5267 {'weight': 1}
+852 type spine
+853 4056 {'weight': 1}
+853 type spine
+854 3923 {'weight': 1}
+854 type spine
+855 4504 {'weight': 1}
+855 type spine
+856 4394 {'weight': 1}
+856 type spine
+857 type spine
+858 type spine
+859 type spine
+860 type spine
+861 type spine
+861 5797 {'weight': 1}
+864 3296 {'weight': 1}
+864 3619 {'weight': 1}
+864 3617 {'weight': 1}
+866 2380 {'weight': 1}
+16529 type axon
+872 type spine
+873 2280 {'weight': 1}
+873 type spine
+877 5100 {'weight': 1}
+877 type spine
+878 type spine
+879 5316 {'weight': 1}
+879 type spine
+880 type spine
+882 5299 {'weight': 1}
+882 type spine
+883 type spine
+883 4157 {'weight': 1}
+884 5299 {'weight': 1}
+884 type spine
+885 type spine
+885 5317 {'weight': 1}
+886 type spine
+887 4228 {'weight': 1}
+887 type spine
+888 4066 {'weight': 1}
+888 type spine
+889 3744 {'weight': 1}
+889 type spine
+890 5234 {'weight': 1}
+890 type spine
+891 5760 {'weight': 1}
+891 type spine
+892 type spine
+892 3749 {'weight': 1}
+893 5426 {'weight': 1}
+893 type spine
+894 type spine
+16533 type axon
+898 5714 {'weight': 1}
+898 type spine
+899 type spine
+899 5718 {'weight': 1}
+906 6284 {'weight': 1}
+906 type spine
+907 4556 {'weight': 1}
+907 type spine
+911 type spine
+911 4558 {'weight': 1}
+912 type spine
+912 4558 {'weight': 1}
+913 type spine
+913 5318 {'weight': 1}
+914 5690 {'weight': 1}
+914 type spine
+918 type spine
+918 5277 {'weight': 1}
+16537 type axon
+16539 type axon
+16540 type axon
+13810 type axon
+16541 type axon
+13811 type axon
+16542 type axon
+16543 type axon
+13813 type axon
+16544 type axon
+13814 type axon
+16545 type axon
+5571 5621 {'weight': 1}
+976 type spine
+976 4198 {'weight': 1}
+977 4505 {'weight': 1}
+977 type spine
+16547 type axon
+13817 type axon
+13818 type axon
+16549 type axon
+994 type spine
+994 4389 {'weight': 1}
+995 type spine
+995 4007 {'weight': 1}
+996 type spine
+996 3933 {'weight': 1}
+997 type spine
+998 type spine
+998 4070 {'weight': 1}
+999 4067 {'weight': 1}
+999 type spine
+1000 3762 {'weight': 1}
+1000 type spine
+16551 type axon
+13821 type axon
+1009 3689 {'weight': 1}
+1009 type spine
+1015 type spine
+1018 6308 {'weight': 1}
+1018 type spine
+1020 type spine
+1020 4207 {'weight': 1}
+1021 6273 {'weight': 1}
+1021 type spine
+1022 3880 {'weight': 1}
+1022 type spine
+1023 type spine
+1023 4013 {'weight': 1}
+1024 6160 {'weight': 1}
+1024 type spine
+1025 type spine
+1025 6550 {'weight': 1}
+1026 type spine
+1026 6510 {'weight': 1}
+1027 6297 {'weight': 1}
+1027 type spine
+1028 4016 {'weight': 1}
+1028 type spine
+1029 6179 {'weight': 1}
+1029 type spine
+1030 type spine
+1031 4740 {'weight': 1}
+1031 type spine
+1032 6484 {'weight': 1}
+1032 type spine
+1033 6362 {'weight': 1}
+1033 type spine
+1034 type spine
+1035 6347 {'weight': 1}
+1035 type spine
+1036 type spine
+1037 type spine
+1038 type spine
+1039 type spine
+1040 type spine
+1040 4110 {'weight': 1}
+1043 3936 {'weight': 1}
+1043 type spine
+1044 type spine
+1045 6337 {'weight': 1}
+1045 type spine
+16560 type axon
+1059 type spine
+1060 type spine
+1061 3834 {'weight': 1}
+1061 type spine
+1062 type spine
+1062 4238 {'weight': 1}
+1063 type spine
+1065 type spine
+1065 3702 {'weight': 1}
+1066 type spine
+1066 3837 {'weight': 1}
+1067 3836 {'weight': 1}
+1067 type spine
+1068 type spine
+16562 type axon
+1070 type spine
+1071 type spine
+16564 type axon
+1085 3897 {'weight': 1}
+1085 type spine
+16565 type axon
+5643 5409 {'weight': 1}
+5643 5514 {'weight': 1}
+16566 type axon
+16567 type axon
+5645 5988 {'weight': 1}
+16569 type axon
+16570 type axon
+16404 type axon
+5648 5154 {'weight': 1}
+16571 type axon
+5649 5654 {'weight': 1}
+5651 5340 {'weight': 1}
+16574 type axon
+16575 type axon
+13845 type axon
+13846 type axon
+16577 type axon
+13847 type axon
+13848 type axon
+16580 type axon
+16406 type axon
+16581 type axon
+5495 type spine
+5495 5286 {'weight': 1}
+5660 5535 {'weight': 1}
+16583 type axon
+13854 type axon
+13856 type axon
+16587 type axon
+13857 type axon
+5666 5513 {'weight': 1}
+5667 5865 {'weight': 1}
+5669 5308 {'weight': 1}
+1251 6298 {'weight': 1}
+1251 type spine
+5670 5679 {'weight': 1}
+16593 type axon
+1258 5809 {'weight': 1}
+1258 type spine
+1260 type spine
+1260 6430 {'weight': 1}
+16595 type axon
+16409 type axon
+1273 5809 {'weight': 1}
+1273 type spine
+1275 6282 {'weight': 1}
+1275 type spine
+1276 6297 {'weight': 1}
+1276 type spine
+1277 4008 {'weight': 1}
+1277 type spine
+1278 type spine
+1278 3854 {'weight': 1}
+1279 4274 {'weight': 1}
+1279 type spine
+1280 type spine
+1280 3926 {'weight': 1}
+5675 5820 {'weight': 1}
+16410 type axon
+1303 type spine
+1305 type spine
+1306 type spine
+1307 6584 {'weight': 1}
+1307 type spine
+1308 6195 {'weight': 1}
+1308 type spine
+1310 type spine
+1311 type spine
+1313 6226 {'weight': 1}
+1313 type spine
+1314 type spine
+1315 6307 {'weight': 1}
+1315 type spine
+1317 type spine
+1319 6628 {'weight': 1}
+1319 type spine
+1320 6523 {'weight': 1}
+1320 type spine
+1322 type spine
+13683 type axon
+1324 4452 {'weight': 1}
+1324 type spine
+1325 type spine
+16605 type axon
+1338 4098 {'weight': 1}
+1338 type spine
+16607 type axon
+1341 3864 {'weight': 1}
+1341 type spine
+1343 type spine
+13684 type axon
+5687 5148 {'weight': 1}
+16412 type axon
+1363 4232 {'weight': 1}
+1363 type spine
+5689 5309 {'weight': 1}
+5690 5307 {'weight': 1}
+16613 type axon
+5691 5503 {'weight': 1}
+13685 type axon
+5692 5629 {'weight': 1}
+16413 type axon
+5693 5895 {'weight': 1}
+16554 type axon
+5695 5339 {'weight': 1}
+5695 5341 {'weight': 1}
+14232 type axon
+13891 type axon
+1441 6652 {'weight': 1}
+1441 type spine
+16625 type axon
+16415 type axon
+5703 5133 {'weight': 1}
+1452 6363 {'weight': 1}
+1452 type spine
+1453 4219 {'weight': 1}
+1453 type spine
+5704 5250 {'weight': 1}
+5738 5656 {'weight': 1}
+5708 5862 {'weight': 1}
+16631 type axon
+1485 type spine
+1485 6517 {'weight': 1}
+1489 6681 {'weight': 1}
+1489 type spine
+5719 5253 {'weight': 1}
+1556 type spine
+1556 6230 {'weight': 1}
+1557 type spine
+1557 4014 {'weight': 1}
+1558 6394 {'weight': 1}
+1558 type spine
+1559 type spine
+1559 6462 {'weight': 1}
+1560 4452 {'weight': 1}
+1560 type spine
+1562 4201 {'weight': 1}
+1562 type spine
+5722 2766 {'weight': 1}
+16419 type axon
+13919 type axon
+1607 type spine
+1607 4014 {'weight': 1}
+1608 6394 {'weight': 1}
+1608 type spine
+1609 4388 {'weight': 1}
+1609 type spine
+1611 6330 {'weight': 1}
+1611 type spine
+4692 5520 {'weight': 1}
+16659 type axon
+1659 type spine
+1659 4038 {'weight': 1}
+13930 type axon
+1662 3722 {'weight': 1}
+1662 type spine
+1666 3752 {'weight': 1}
+1666 type spine
+1667 4259 {'weight': 1}
+1667 type spine
+16663 type axon
+16664 type axon
+13934 type axon
+16665 type axon
+16666 type axon
+5744 5583 {'weight': 1}
+16668 type axon
+16669 type axon
+5748 5476 {'weight': 1}
+5749 5604 {'weight': 1}
+16674 type axon
+16516 type axon
+16675 type axon
+16676 type axon
+16677 type axon
+16678 type axon
+16679 type axon
+16680 type axon
+16681 type axon
+16682 type axon
+16683 type axon
+16684 type axon
+1817 type spine
+1817 4054 {'weight': 1}
+1818 3824 {'weight': 1}
+1818 type spine
+1819 4052 {'weight': 1}
+1819 type spine
+1821 type spine
+1821 4407 {'weight': 1}
+1822 3832 {'weight': 1}
+1822 type spine
+5765 5162 {'weight': 1}
+1825 3952 {'weight': 1}
+1825 type spine
+1827 4152 {'weight': 1}
+1827 type spine
+1828 type spine
+16689 type axon
+5767 5440 {'weight': 1}
+16691 type axon
+13702 type axon
+16431 type axon
+4156 4586 {'weight': 1}
+4156 3445 {'weight': 1}
+6014 5665 {'weight': 1}
+2013 3739 {'weight': 1}
+2013 type spine
+2014 4099 {'weight': 1}
+2014 type spine
+2017 3834 {'weight': 1}
+2017 type spine
+2019 type spine
+2019 3982 {'weight': 1}
+2021 4002 {'weight': 1}
+2021 type spine
+2023 type spine
+2023 3830 {'weight': 1}
+2025 4220 {'weight': 1}
+2025 type spine
+2028 4002 {'weight': 1}
+2028 type spine
+2094 3874 {'weight': 1}
+2094 type spine
+2095 3754 {'weight': 1}
+2095 type spine
+2096 3755 {'weight': 1}
+2096 type spine
+2097 type spine
+2097 3751 {'weight': 1}
+2098 type spine
+2098 4198 {'weight': 1}
+2099 type spine
+2099 6254 {'weight': 1}
+2100 type spine
+2100 6574 {'weight': 1}
+2101 4068 {'weight': 1}
+2101 type spine
+2102 3754 {'weight': 1}
+2102 type spine
+2103 3754 {'weight': 1}
+2103 type spine
+2105 type spine
+2105 6517 {'weight': 1}
+2106 4740 {'weight': 1}
+2106 type spine
+2107 type spine
+2107 6325 {'weight': 1}
+2108 type spine
+2108 4207 {'weight': 1}
+2109 4188 {'weight': 1}
+2109 type spine
+2110 4201 {'weight': 1}
+2110 type spine
+14005 type axon
+2115 6449 {'weight': 1}
+2115 type spine
+5906 5607 {'weight': 1}
+2149 type spine
+2149 3951 {'weight': 1}
+2150 3824 {'weight': 1}
+2150 type spine
+14012 type axon
+14021 type axon
+2272 5544 {'weight': 1}
+2272 5946 {'weight': 1}
+5798 5473 {'weight': 1}
+2361 4049 {'weight': 1}
+2361 type spine
+2362 type spine
+2362 4071 {'weight': 1}
+2369 type spine
+2370 type spine
+2371 4072 {'weight': 1}
+2371 type spine
+2379 type spine
+2379 3877 {'weight': 1}
+2380 type spine
+2381 type spine
+2381 3933 {'weight': 1}
+2382 3930 {'weight': 1}
+2382 type spine
+2383 3882 {'weight': 1}
+2383 type spine
+2384 3689 {'weight': 1}
+2384 type spine
+2386 type spine
+2388 4100 {'weight': 1}
+2388 type spine
+2389 type spine
+2391 3868 {'weight': 1}
+2391 type spine
+2392 type spine
+2393 type spine
+2393 4095 {'weight': 1}
+2403 4072 {'weight': 1}
+2403 type spine
+2404 4635 {'weight': 1}
+2404 type spine
+14054 type axon
+2410 type spine
+14057 type axon
+5866 5246 {'weight': 1}
+5866 4815 {'weight': 1}
+5537 5316 {'weight': 1}
+5537 type spine
+14064 type axon
+14065 type axon
+4512 3803 {'weight': 1}
+13723 type axon
+14078 type axon
+13724 type axon
+5893 5181 {'weight': 1}
+14086 type axon
+14087 type axon
+5900 5382 {'weight': 1}
+2634 type spine
+2634 5285 {'weight': 1}
+2639 5345 {'weight': 1}
+2639 type spine
+2653 type spine
+2655 type spine
+2655 3838 {'weight': 1}
+2660 type spine
+2662 type spine
+2663 4456 {'weight': 1}
+2663 type spine
+2664 4394 {'weight': 1}
+2664 type spine
+2669 type spine
+2671 type spine
+2671 5367 {'weight': 1}
+10864 type axon
+2673 type spine
+2674 5425 {'weight': 1}
+2674 type spine
+10867 type axon
+2678 type spine
+2678 4118 {'weight': 1}
+2689 5314 {'weight': 1}
+2689 type spine
+2722 type spine
+2722 6295 {'weight': 1}
+2724 type spine
+2724 6293 {'weight': 1}
+2725 type spine
+2725 6413 {'weight': 1}
+2727 6586 {'weight': 1}
+2727 type spine
+2729 type spine
+2729 6678 {'weight': 1}
+2734 type spine
+2740 type spine
+2741 6696 {'weight': 1}
+2741 type spine
+2742 6700 {'weight': 1}
+2742 type spine
+14113 type axon
+14114 type axon
+2766 type spine
+2769 3824 {'weight': 1}
+2769 type spine
+14115 type axon
+2774 6523 {'weight': 1}
+2774 type spine
+16460 type axon
+13734 type axon
+16463 type axon
+14138 type axon
+5093 5588 {'weight': 1}
+16465 type axon
+16550 type axon
+2964 6460 {'weight': 1}
+2964 type spine
+5960 5653 {'weight': 1}
+14160 type axon
+5974 5872 {'weight': 1}
+3084 type spine
+3084 6543 {'weight': 1}
+3086 6217 {'weight': 1}
+3086 type spine
+5976 5699 {'weight': 1}
+14169 type axon
+5980 5505 {'weight': 1}
+4088 3314 {'weight': 1}
+4088 5237 {'weight': 1}
+16553 type axon
+3128 3875 {'weight': 1}
+3128 type spine
+3144 type spine
+3144 6613 {'weight': 1}
+3145 type spine
+3147 type spine
+3147 3686 {'weight': 1}
+3148 5372 {'weight': 1}
+3148 type spine
+3149 6179 {'weight': 1}
+3149 type spine
+3151 4033 {'weight': 1}
+3151 type spine
+14179 type axon
+3156 3716 {'weight': 1}
+3156 type spine
+3157 type spine
+3157 3725 {'weight': 1}
+3158 3892 {'weight': 1}
+3158 type spine
+3160 3859 {'weight': 1}
+3160 type spine
+3161 3761 {'weight': 1}
+3161 type spine
+3162 4004 {'weight': 1}
+3162 type spine
+3163 type spine
+3163 3775 {'weight': 1}
+3165 type spine
+3166 3968 {'weight': 1}
+3166 type spine
+3167 type spine
+3167 4071 {'weight': 1}
+3168 3836 {'weight': 1}
+3168 type spine
+3169 3754 {'weight': 1}
+3169 type spine
+3170 type spine
+3171 type spine
+3171 4007 {'weight': 1}
+3172 type spine
+3172 4038 {'weight': 1}
+14182 type axon
+3174 3771 {'weight': 1}
+3174 type spine
+3175 3716 {'weight': 1}
+3175 type spine
+3177 type spine
+3177 4261 {'weight': 1}
+3179 3940 {'weight': 1}
+3179 type spine
+3180 type spine
+3180 4239 {'weight': 1}
+11399 type axon
+3731 3410 {'weight': 1}
+3731 4755 {'weight': 1}
+3731 5357 {'weight': 1}
+3731 3319 {'weight': 1}
+13824 type axon
+3232 3820 {'weight': 1}
+3232 type spine
+3233 3692 {'weight': 1}
+3233 type spine
+3234 3692 {'weight': 1}
+3234 type spine
+3235 3692 {'weight': 1}
+3235 type spine
+3236 3688 {'weight': 1}
+3236 type spine
+3237 type spine
+3237 3702 {'weight': 1}
+3238 type spine
+3238 3702 {'weight': 1}
+3239 type spine
+3239 3830 {'weight': 1}
+3240 type spine
+3240 3846 {'weight': 1}
+3241 type spine
+3241 3815 {'weight': 1}
+3243 3740 {'weight': 1}
+3243 type spine
+3244 3818 {'weight': 1}
+3244 type spine
+3245 type spine
+3245 3966 {'weight': 1}
+3246 3824 {'weight': 1}
+3246 type spine
+3247 3960 {'weight': 1}
+3247 type spine
+3248 5076 {'weight': 1}
+3248 type spine
+3249 type spine
+3249 3975 {'weight': 1}
+3250 3968 {'weight': 1}
+3250 type spine
+3251 type spine
+3251 3863 {'weight': 1}
+3252 4059 {'weight': 1}
+3252 type spine
+3253 3777 {'weight': 1}
+3253 type spine
+3254 3776 {'weight': 1}
+3254 type spine
+3255 3929 {'weight': 1}
+3255 type spine
+3256 type spine
+3256 3766 {'weight': 1}
+3257 type spine
+3257 4037 {'weight': 1}
+3258 4044 {'weight': 1}
+3258 type spine
+3259 3732 {'weight': 1}
+3259 type spine
+3260 type spine
+3260 3879 {'weight': 1}
+3261 4008 {'weight': 1}
+3261 type spine
+3262 type spine
+3262 4062 {'weight': 1}
+3263 4145 {'weight': 1}
+3263 type spine
+3264 3788 {'weight': 1}
+3264 type spine
+3266 4064 {'weight': 1}
+3266 type spine
+3267 4161 {'weight': 1}
+3267 type spine
+3268 3785 {'weight': 1}
+3268 type spine
+3269 type spine
+3269 4047 {'weight': 1}
+3270 type spine
+3270 4077 {'weight': 1}
+3272 type spine
+3272 3791 {'weight': 1}
+3273 type spine
+3273 3789 {'weight': 1}
+3274 type spine
+3274 3789 {'weight': 1}
+3275 type spine
+3275 3839 {'weight': 1}
+3276 type spine
+3276 3774 {'weight': 1}
+3277 type spine
+3277 3854 {'weight': 1}
+3278 type spine
+3278 3829 {'weight': 1}
+3279 4089 {'weight': 1}
+3279 type spine
+3280 type spine
+3280 3703 {'weight': 1}
+3281 type spine
+3281 4157 {'weight': 1}
+3282 4035 {'weight': 1}
+3282 type spine
+3283 type spine
+3283 3703 {'weight': 1}
+3284 type spine
+3284 3791 {'weight': 1}
+3285 4074 {'weight': 1}
+3285 type spine
+3286 type spine
+3286 3703 {'weight': 1}
+3287 3825 {'weight': 1}
+3287 type spine
+3288 3824 {'weight': 1}
+3288 type spine
+3289 3764 {'weight': 1}
+3289 type spine
+3290 type spine
+3290 3790 {'weight': 1}
+3291 3968 {'weight': 1}
+3291 type spine
+3292 type spine
+3292 3974 {'weight': 1}
+3293 type spine
+3293 3998 {'weight': 1}
+3294 4056 {'weight': 1}
+3294 type spine
+3295 4121 {'weight': 1}
+3295 type spine
+3296 type spine
+3297 type spine
+3297 4047 {'weight': 1}
+3298 4049 {'weight': 1}
+3298 type spine
+3299 type spine
+3299 3838 {'weight': 1}
+3300 4048 {'weight': 1}
+3300 type spine
+3301 type spine
+3301 3975 {'weight': 1}
+3302 4410 {'weight': 1}
+3302 type spine
+3303 type spine
+3303 3790 {'weight': 1}
+3304 3768 {'weight': 1}
+3304 type spine
+3305 3713 {'weight': 1}
+3305 type spine
+3306 3755 {'weight': 1}
+3306 type spine
+3307 type spine
+3307 3901 {'weight': 1}
+3308 4036 {'weight': 1}
+3308 type spine
+3309 3857 {'weight': 1}
+3309 type spine
+3310 type spine
+3310 3718 {'weight': 1}
+3312 type spine
+3312 3837 {'weight': 1}
+3313 3819 {'weight': 1}
+3313 type spine
+3314 type spine
+3316 type spine
+3316 3831 {'weight': 1}
+3317 4162 {'weight': 1}
+3317 type spine
+3318 type spine
+3318 4149 {'weight': 1}
+3319 type spine
+3320 3755 {'weight': 1}
+3320 type spine
+3321 type spine
+3321 3749 {'weight': 1}
+3322 3947 {'weight': 1}
+3322 type spine
+3323 type spine
+3323 4470 {'weight': 1}
+3324 type spine
+3324 4046 {'weight': 1}
+3325 4041 {'weight': 1}
+3325 type spine
+3326 3721 {'weight': 1}
+3326 type spine
+3327 type spine
+3327 3687 {'weight': 1}
+3328 type spine
+3328 3734 {'weight': 1}
+3329 3851 {'weight': 1}
+3329 type spine
+3330 3856 {'weight': 1}
+3330 type spine
+3331 4032 {'weight': 1}
+3331 type spine
+3332 3828 {'weight': 1}
+3332 type spine
+3333 3819 {'weight': 1}
+3333 type spine
+3334 type spine
+3334 3789 {'weight': 1}
+3335 4872 {'weight': 1}
+3335 type spine
+3336 4105 {'weight': 1}
+3336 type spine
+3337 3968 {'weight': 1}
+3337 type spine
+3338 4081 {'weight': 1}
+3338 type spine
+3339 type spine
+3339 4062 {'weight': 1}
+3340 4148 {'weight': 1}
+3340 type spine
+3341 4080 {'weight': 1}
+3341 type spine
+3342 type spine
+3342 3935 {'weight': 1}
+3343 4025 {'weight': 1}
+3343 type spine
+3344 type spine
+3344 4071 {'weight': 1}
+3345 3691 {'weight': 1}
+3345 type spine
+3346 3948 {'weight': 1}
+3346 type spine
+3347 3716 {'weight': 1}
+3347 type spine
+3348 type spine
+3348 4095 {'weight': 1}
+3349 3857 {'weight': 1}
+3349 type spine
+3350 type spine
+3350 3790 {'weight': 1}
+3351 type spine
+3351 4133 {'weight': 1}
+3353 3979 {'weight': 1}
+3353 type spine
+3354 4410 {'weight': 1}
+3354 type spine
+3355 type spine
+3355 3829 {'weight': 1}
+3356 type spine
+3356 3829 {'weight': 1}
+3357 4090 {'weight': 1}
+3357 type spine
+3359 3762 {'weight': 1}
+3359 type spine
+3360 3907 {'weight': 1}
+3360 type spine
+3361 type spine
+3361 3839 {'weight': 1}
+3362 3708 {'weight': 1}
+3362 type spine
+3363 3810 {'weight': 1}
+3363 type spine
+3364 3976 {'weight': 1}
+3364 type spine
+3365 3928 {'weight': 1}
+3365 type spine
+3366 4066 {'weight': 1}
+3366 type spine
+3367 3984 {'weight': 1}
+3367 type spine
+3368 type spine
+3368 3822 {'weight': 1}
+3369 type spine
+3369 3791 {'weight': 1}
+3370 type spine
+3370 3989 {'weight': 1}
+3371 4252 {'weight': 1}
+3371 type spine
+3373 4032 {'weight': 1}
+3373 type spine
+3374 3891 {'weight': 1}
+3374 type spine
+3375 4968 {'weight': 1}
+3375 type spine
+3376 4163 {'weight': 1}
+3376 type spine
+3377 3778 {'weight': 1}
+3377 type spine
+3378 3768 {'weight': 1}
+3378 type spine
+3379 3899 {'weight': 1}
+3379 type spine
+3380 3992 {'weight': 1}
+3380 type spine
+3381 3912 {'weight': 1}
+3381 type spine
+3382 type spine
+3382 3975 {'weight': 1}
+3383 3755 {'weight': 1}
+3383 type spine
+3384 4076 {'weight': 1}
+3384 type spine
+3385 3946 {'weight': 1}
+3385 type spine
+3386 type spine
+3386 3966 {'weight': 1}
+3387 type spine
+3387 4039 {'weight': 1}
+3389 3706 {'weight': 1}
+3389 type spine
+3391 3961 {'weight': 1}
+3391 type spine
+3392 type spine
+3392 3901 {'weight': 1}
+14219 type axon
+3396 3899 {'weight': 1}
+3396 type spine
+3397 4513 {'weight': 1}
+3397 type spine
+3398 3713 {'weight': 1}
+3398 type spine
+3399 type spine
+3399 3903 {'weight': 1}
+3400 3912 {'weight': 1}
+3400 type spine
+3401 4160 {'weight': 1}
+3401 type spine
+3402 3988 {'weight': 1}
+3402 type spine
+3403 type spine
+3403 3855 {'weight': 1}
+3404 3979 {'weight': 1}
+3404 type spine
+3405 4216 {'weight': 1}
+3405 type spine
+3406 type spine
+3406 4255 {'weight': 1}
+3407 type spine
+3407 3831 {'weight': 1}
+3408 3768 {'weight': 1}
+3408 type spine
+3409 3771 {'weight': 1}
+3409 type spine
+3410 type spine
+3411 type spine
+3411 3925 {'weight': 1}
+3412 3787 {'weight': 1}
+3412 type spine
+3414 type spine
+3414 3685 {'weight': 1}
+3415 4083 {'weight': 1}
+3415 type spine
+3416 4162 {'weight': 1}
+3416 type spine
+3417 3874 {'weight': 1}
+3417 type spine
+3418 type spine
+3418 3757 {'weight': 1}
+3419 3779 {'weight': 1}
+3419 type spine
+3420 5074 {'weight': 1}
+3420 type spine
+3421 3720 {'weight': 1}
+3421 type spine
+3422 type spine
+3422 3837 {'weight': 1}
+3423 type spine
+3423 3871 {'weight': 1}
+3424 3723 {'weight': 1}
+3424 type spine
+3425 4139 {'weight': 1}
+3425 type spine
+3426 4140 {'weight': 1}
+3426 type spine
+3427 4273 {'weight': 1}
+3427 type spine
+3428 4097 {'weight': 1}
+3428 type spine
+3429 type spine
+3429 3837 {'weight': 1}
+3430 4092 {'weight': 1}
+3430 type spine
+3431 type spine
+3431 3685 {'weight': 1}
+3432 type spine
+3432 3685 {'weight': 1}
+3433 3724 {'weight': 1}
+3433 type spine
+3434 4016 {'weight': 1}
+3434 type spine
+3435 type spine
+3435 3751 {'weight': 1}
+3436 4187 {'weight': 1}
+3436 type spine
+3437 3897 {'weight': 1}
+3437 type spine
+3438 3740 {'weight': 1}
+3438 type spine
+3439 3896 {'weight': 1}
+3439 type spine
+3440 3752 {'weight': 1}
+3440 type spine
+3441 4259 {'weight': 1}
+3441 type spine
+3442 4114 {'weight': 1}
+3442 type spine
+3443 type spine
+3443 4014 {'weight': 1}
+3444 4137 {'weight': 1}
+3444 type spine
+3445 type spine
+3446 4144 {'weight': 1}
+3446 type spine
+3448 4468 {'weight': 1}
+3448 type spine
+3449 4083 {'weight': 1}
+3449 type spine
+3450 type spine
+3450 4159 {'weight': 1}
+3452 3723 {'weight': 1}
+3452 type spine
+3454 3787 {'weight': 1}
+3454 type spine
+3455 type spine
+3455 4159 {'weight': 1}
+3456 type spine
+3456 3871 {'weight': 1}
+3457 3761 {'weight': 1}
+3457 type spine
+3459 4008 {'weight': 1}
+3459 type spine
+3460 type spine
+3460 3773 {'weight': 1}
+3461 type spine
+3461 3726 {'weight': 1}
+3462 4068 {'weight': 1}
+3462 type spine
+3463 3786 {'weight': 1}
+3463 type spine
+3464 type spine
+3464 3863 {'weight': 1}
+3465 3841 {'weight': 1}
+3465 type spine
+3466 type spine
+3466 4103 {'weight': 1}
+3467 3852 {'weight': 1}
+3467 type spine
+3468 4169 {'weight': 1}
+3468 type spine
+3469 type spine
+3469 3991 {'weight': 1}
+3470 3906 {'weight': 1}
+3470 type spine
+3471 type spine
+3471 4349 {'weight': 1}
+3472 3968 {'weight': 1}
+3472 type spine
+3473 type spine
+3473 4085 {'weight': 1}
+3474 4211 {'weight': 1}
+3474 type spine
+3475 type spine
+3475 3773 {'weight': 1}
+3476 type spine
+3476 4157 {'weight': 1}
+3477 3843 {'weight': 1}
+3477 type spine
+3479 type spine
+3479 4174 {'weight': 1}
+3480 3984 {'weight': 1}
+3480 type spine
+3481 4154 {'weight': 1}
+3481 type spine
+3482 4092 {'weight': 1}
+3482 type spine
+3483 type spine
+3483 4007 {'weight': 1}
+3484 type spine
+3484 4151 {'weight': 1}
+3485 type spine
+3485 3982 {'weight': 1}
+3486 type spine
+3486 3854 {'weight': 1}
+3487 4155 {'weight': 1}
+3487 type spine
+3489 type spine
+3489 4086 {'weight': 1}
+3490 3923 {'weight': 1}
+3490 type spine
+3491 type spine
+3491 4239 {'weight': 1}
+3492 type spine
+3492 3773 {'weight': 1}
+3493 3842 {'weight': 1}
+3493 type spine
+3494 3761 {'weight': 1}
+3494 type spine
+3495 type spine
+3495 3773 {'weight': 1}
+3496 3739 {'weight': 1}
+3496 type spine
+3497 3787 {'weight': 1}
+3497 type spine
+3498 type spine
+3498 4159 {'weight': 1}
+3499 4068 {'weight': 1}
+3499 type spine
+3500 type spine
+3501 3880 {'weight': 1}
+3501 type spine
+3502 type spine
+3502 4061 {'weight': 1}
+3503 3810 {'weight': 1}
+3503 type spine
+3504 3836 {'weight': 1}
+3504 type spine
+3505 type spine
+3505 4093 {'weight': 1}
+3508 4034 {'weight': 1}
+3508 type spine
+3512 type spine
+3512 4013 {'weight': 1}
+3513 3842 {'weight': 1}
+3513 type spine
+3514 4001 {'weight': 1}
+3514 type spine
+3515 4152 {'weight': 1}
+3515 type spine
+3516 4004 {'weight': 1}
+3516 type spine
+3517 4098 {'weight': 1}
+3517 type spine
+3518 4058 {'weight': 1}
+3518 type spine
+3520 4220 {'weight': 1}
+3520 type spine
+3521 type spine
+3521 3983 {'weight': 1}
+3522 3883 {'weight': 1}
+3522 type spine
+3523 3834 {'weight': 1}
+3523 type spine
+3525 4001 {'weight': 1}
+3525 type spine
+3526 3985 {'weight': 1}
+3526 type spine
+3527 4153 {'weight': 1}
+3527 type spine
+3528 4129 {'weight': 1}
+3528 type spine
+3529 3954 {'weight': 1}
+3529 type spine
+3530 4130 {'weight': 1}
+3530 type spine
+3531 3952 {'weight': 1}
+3531 type spine
+3532 4097 {'weight': 1}
+3532 type spine
+3533 4395 {'weight': 1}
+3533 type spine
+3534 3832 {'weight': 1}
+3534 type spine
+3535 type spine
+3535 4119 {'weight': 1}
+3536 type spine
+3536 4093 {'weight': 1}
+3537 3739 {'weight': 1}
+3537 type spine
+3538 3836 {'weight': 1}
+3538 type spine
+3539 4019 {'weight': 1}
+3539 type spine
+3540 4116 {'weight': 1}
+3540 type spine
+3541 4545 {'weight': 1}
+3541 type spine
+3542 3875 {'weight': 1}
+3542 type spine
+3543 3737 {'weight': 1}
+3543 type spine
+3545 3833 {'weight': 1}
+3545 type spine
+3546 3712 {'weight': 1}
+3546 type spine
+3547 type spine
+3547 3709 {'weight': 1}
+3548 type spine
+3548 3775 {'weight': 1}
+3549 type spine
+3549 3854 {'weight': 1}
+3550 3777 {'weight': 1}
+3550 type spine
+3551 4009 {'weight': 1}
+3551 type spine
+3553 type spine
+3553 3870 {'weight': 1}
+3554 3785 {'weight': 1}
+3554 type spine
+3555 4210 {'weight': 1}
+3555 type spine
+3556 3740 {'weight': 1}
+3556 type spine
+3557 4024 {'weight': 1}
+3557 type spine
+3558 type spine
+3558 4119 {'weight': 1}
+3559 type spine
+3559 3999 {'weight': 1}
+3560 type spine
+3560 4126 {'weight': 1}
+3561 4000 {'weight': 1}
+3561 type spine
+3562 4025 {'weight': 1}
+3562 type spine
+3563 type spine
+3563 3830 {'weight': 1}
+3564 type spine
+3564 3967 {'weight': 1}
+3565 3761 {'weight': 1}
+3565 type spine
+3566 3938 {'weight': 1}
+3566 type spine
+3567 3897 {'weight': 1}
+3567 type spine
+3568 3932 {'weight': 1}
+3568 type spine
+3570 3923 {'weight': 1}
+3570 type spine
+3571 type spine
+3571 4071 {'weight': 1}
+3572 type spine
+3572 3887 {'weight': 1}
+3573 type spine
+3573 3885 {'weight': 1}
+3574 type spine
+3574 3909 {'weight': 1}
+3575 3907 {'weight': 1}
+3575 type spine
+3576 3969 {'weight': 1}
+3576 type spine
+3577 4019 {'weight': 1}
+3577 type spine
+3578 type spine
+3578 3702 {'weight': 1}
+3579 3860 {'weight': 1}
+3579 type spine
+3580 type spine
+3580 3910 {'weight': 1}
+3581 4057 {'weight': 1}
+3581 type spine
+3584 3825 {'weight': 1}
+3584 type spine
+3585 3825 {'weight': 1}
+3585 type spine
+3587 3994 {'weight': 1}
+3587 type spine
+3588 type spine
+3588 3966 {'weight': 1}
+3589 type spine
+3589 4215 {'weight': 1}
+3590 4056 {'weight': 1}
+3590 type spine
+3591 type spine
+3591 3783 {'weight': 1}
+3592 4057 {'weight': 1}
+3592 type spine
+3593 type spine
+3593 3975 {'weight': 1}
+3594 3713 {'weight': 1}
+3594 type spine
+3595 4008 {'weight': 1}
+3595 type spine
+3596 4073 {'weight': 1}
+3596 type spine
+3597 3833 {'weight': 1}
+3597 type spine
+3598 type spine
+3598 3837 {'weight': 1}
+3599 type spine
+3599 3870 {'weight': 1}
+3600 3883 {'weight': 1}
+3600 type spine
+3602 3884 {'weight': 1}
+3602 type spine
+3604 4395 {'weight': 1}
+3604 type spine
+3605 type spine
+3605 3830 {'weight': 1}
+3608 3841 {'weight': 1}
+3608 type spine
+3609 3715 {'weight': 1}
+3609 type spine
+3610 3761 {'weight': 1}
+3610 type spine
+3611 3836 {'weight': 1}
+3611 type spine
+3612 type spine
+3612 3839 {'weight': 1}
+3613 3780 {'weight': 1}
+3613 type spine
+3614 4008 {'weight': 1}
+3614 type spine
+3615 4226 {'weight': 1}
+3615 type spine
+3616 4113 {'weight': 1}
+3616 type spine
+3617 type spine
+3618 3928 {'weight': 1}
+3618 type spine
+3619 type spine
+3625 type spine
+3625 3902 {'weight': 1}
+3626 type spine
+3626 4541 {'weight': 1}
+3627 3848 {'weight': 1}
+3627 type spine
+3628 3761 {'weight': 1}
+3628 type spine
+3631 4131 {'weight': 1}
+3631 type spine
+3634 type spine
+3634 3845 {'weight': 1}
+3635 4115 {'weight': 1}
+3635 type spine
+3637 3948 {'weight': 1}
+3637 type spine
+3638 4192 {'weight': 1}
+3638 type spine
+3639 type spine
+3639 3702 {'weight': 1}
+3641 4467 {'weight': 1}
+3641 type spine
+3643 type spine
+3643 3823 {'weight': 1}
+3646 type spine
+3646 5430 {'weight': 1}
+3647 type spine
+3647 3719 {'weight': 1}
+3650 4578 {'weight': 1}
+3650 type spine
+3651 4105 {'weight': 1}
+3651 type spine
+3652 3713 {'weight': 1}
+3652 type spine
+3653 4105 {'weight': 1}
+3653 type spine
+3654 4176 {'weight': 1}
+3654 type spine
+3655 type spine
+3655 4223 {'weight': 1}
+3656 4074 {'weight': 1}
+3656 type spine
+3660 4410 {'weight': 1}
+3660 type spine
+3661 4352 {'weight': 1}
+3661 type spine
+3662 4499 {'weight': 1}
+3662 type spine
+3663 3897 {'weight': 1}
+3663 type spine
+3664 type spine
+3664 3837 {'weight': 1}
+3665 type spine
+3665 4453 {'weight': 1}
+3668 3961 {'weight': 1}
+3668 type spine
+3669 type spine
+3669 4157 {'weight': 1}
+16489 type axon
+3672 4033 {'weight': 1}
+3672 type spine
+3676 3825 {'weight': 1}
+3676 type spine
+3677 type spine
+3677 4445 {'weight': 1}
+3679 3848 {'weight': 1}
+3679 type spine
+3681 type spine
+3681 3718 {'weight': 1}
+3685 5187 {'weight': 1}
+3687 5489 {'weight': 1}
+3689 5236 {'weight': 1}
+3689 5342 {'weight': 1}
+3694 3716 {'weight': 1}
+3694 type spine
+3695 3844 {'weight': 1}
+3695 type spine
+3697 type spine
+3697 4063 {'weight': 1}
+3699 6160 {'weight': 1}
+3699 type spine
+3700 type spine
+3700 4557 {'weight': 1}
+16490 type axon
+3707 5618 {'weight': 1}
+16491 type axon
+3732 4482 {'weight': 1}
+5535 type spine
+3759 5412 {'weight': 1}
+3766 5443 {'weight': 1}
+3766 5549 {'weight': 1}
+3771 4315 {'weight': 1}
+3771 5164 {'weight': 1}
+3771 5439 {'weight': 1}
+3772 5488 {'weight': 1}
+3772 6098 {'weight': 1}
+3780 5479 {'weight': 1}
+3785 5434 {'weight': 1}
+3786 5441 {'weight': 1}
+3791 4619 {'weight': 1}
+3798 4034 {'weight': 1}
+3798 type spine
+3800 type spine
+3800 4133 {'weight': 1}
+3801 type spine
+3801 4614 {'weight': 1}
+3803 type spine
+3808 4690 {'weight': 1}
+3808 type spine
+3809 type spine
+3809 5213 {'weight': 1}
+3814 5442 {'weight': 1}
+3814 5605 {'weight': 1}
+16494 type axon
+3833 4267 {'weight': 1}
+3840 5453 {'weight': 1}
+3851 4774 {'weight': 1}
+3852 4425 {'weight': 1}
+3861 5597 {'weight': 1}
+3868 4263 {'weight': 1}
+3873 4772 {'weight': 1}
+3900 5240 {'weight': 1}
+3909 5192 {'weight': 1}
+3912 4584 {'weight': 1}
+3917 5260 {'weight': 1}
+3918 5381 {'weight': 1}
+3920 5458 {'weight': 1}
+3928 5496 {'weight': 1}
+3941 5130 {'weight': 1}
+3946 5460 {'weight': 1}
+3947 5310 {'weight': 1}
+3947 5359 {'weight': 1}
+3949 4922 {'weight': 1}
+3949 5589 {'weight': 1}
+3954 4642 {'weight': 1}
+3960 5622 {'weight': 1}
+3960 4694 {'weight': 1}
+3965 5560 {'weight': 1}
+3965 5682 {'weight': 1}
+3968 4270 {'weight': 1}
+3970 4475 {'weight': 1}
+3982 5990 {'weight': 1}
+3983 5987 {'weight': 1}
+3988 5540 {'weight': 1}
+3989 4363 {'weight': 1}
+3991 4402 {'weight': 1}
+3992 5459 {'weight': 1}
+16500 type axon
+4005 4317 {'weight': 1}
+16557 type axon
+4012 5619 {'weight': 1}
+4022 4621 {'weight': 1}
+4024 5590 {'weight': 1}
+13773 type axon
+4031 5378 {'weight': 1}
+4031 5379 {'weight': 1}
+4031 5238 {'weight': 1}
+4041 4669 {'weight': 1}
+4050 5224 {'weight': 1}
+4050 4758 {'weight': 1}
+4053 6008 {'weight': 1}
+4054 6040 {'weight': 1}
+4054 4474 {'weight': 1}
+4054 4625 {'weight': 1}
+4074 5384 {'weight': 1}
+12272 type axon
+4081 5886 {'weight': 1}
+4083 5132 {'weight': 1}
+4083 5141 {'weight': 1}
+12280 type axon
+4091 4695 {'weight': 1}
+4093 4533 {'weight': 1}
+4097 4589 {'weight': 1}
+4111 4426 {'weight': 1}
+4118 5188 {'weight': 1}
+4118 5214 {'weight': 1}
+4128 4623 {'weight': 1}
+4129 5542 {'weight': 1}
+4133 4401 {'weight': 1}
+4145 5509 {'weight': 1}
+4146 5491 {'weight': 1}
+4147 5483 {'weight': 1}
+4149 6004 {'weight': 1}
+4154 5626 {'weight': 1}
+4154 5625 {'weight': 1}
+4154 4724 {'weight': 1}
+4154 4593 {'weight': 1}
+16558 type axon
+4157 5558 {'weight': 1}
+5570 5510 {'weight': 1}
+4179 5185 {'weight': 1}
+4180 5600 {'weight': 1}
+4187 4530 {'weight': 1}
+4197 5239 {'weight': 1}
+4198 4667 {'weight': 1}
+4199 4537 {'weight': 1}
+4210 4405 {'weight': 1}
+4214 5922 {'weight': 1}
+4214 5742 {'weight': 1}
+4216 5593 {'weight': 1}
+4220 4752 {'weight': 1}
+4220 4617 {'weight': 1}
+4222 4592 {'weight': 1}
+4224 5153 {'weight': 1}
+4224 5451 {'weight': 1}
+4226 4427 {'weight': 1}
+4227 5512 {'weight': 1}
+4228 5464 {'weight': 1}
+4228 5504 {'weight': 1}
+4228 5186 {'weight': 1}
+4239 5515 {'weight': 1}
+4253 5415 {'weight': 1}
+4255 5150 {'weight': 1}
+4256 4585 {'weight': 1}
+4258 5323 {'weight': 1}
+4263 type spine
+4267 type spine
+4270 type spine
+4315 type spine
+4317 type spine
+4354 5481 {'weight': 1}
+4356 4665 {'weight': 1}
+4363 type spine
+4394 5197 {'weight': 1}
+4398 type spine
+4398 4967 {'weight': 1}
+4401 type spine
+4402 type spine
+4405 type spine
+4412 5171 {'weight': 1}
+4414 5142 {'weight': 1}
+4415 5201 {'weight': 1}
+13786 type axon
+4419 4499 {'weight': 1}
+4419 type spine
+4420 4552 {'weight': 1}
+4420 type spine
+4421 4553 {'weight': 1}
+4421 type spine
+4425 type spine
+4426 type spine
+4427 type spine
+4445 5329 {'weight': 1}
+4445 5610 {'weight': 1}
+4455 4538 {'weight': 1}
+4458 5552 {'weight': 1}
+4458 5418 {'weight': 1}
+4458 5131 {'weight': 1}
+4458 5548 {'weight': 1}
+4463 4481 {'weight': 1}
+4466 5128 {'weight': 1}
+4466 5020 {'weight': 1}
+4466 5446 {'weight': 1}
+4466 4479 {'weight': 1}
+4470 5196 {'weight': 1}
+4471 5139 {'weight': 1}
+4471 5140 {'weight': 1}
+4474 type spine
+4475 type spine
+4476 5089 {'weight': 1}
+4476 type spine
+4479 type spine
+4481 type spine
+4482 type spine
+4497 4583 {'weight': 1}
+4503 5235 {'weight': 1}
+4504 5471 {'weight': 1}
+4504 5172 {'weight': 1}
+4505 5484 {'weight': 1}
+4505 5601 {'weight': 1}
+13789 type axon
+16517 type axon
+4513 5498 {'weight': 1}
+4513 4644 {'weight': 1}
+4513 5598 {'weight': 1}
+4513 5437 {'weight': 1}
+4529 5100 {'weight': 1}
+4529 type spine
+4530 type spine
+4533 type spine
+4535 4080 {'weight': 1}
+4535 type spine
+4536 type spine
+4536 5269 {'weight': 1}
+4537 type spine
+4538 type spine
+4541 5632 {'weight': 1}
+16518 type axon
+4543 5152 {'weight': 1}
+4543 5586 {'weight': 1}
+4543 5444 {'weight': 1}
+4559 type spine
+4559 5318 {'weight': 1}
+4572 5727 {'weight': 1}
+4573 4645 {'weight': 1}
+4582 4588 {'weight': 1}
+4583 type spine
+4584 type spine
+4585 type spine
+4586 type spine
+4588 type spine
+4589 type spine
+4592 type spine
+4593 type spine
+16520 type axon
+16561 type axon
+4610 6027 {'weight': 1}
+4617 type spine
+4619 type spine
+4620 type spine
+4620 5295 {'weight': 1}
+4621 type spine
+4623 type spine
+4625 type spine
+4631 4693 {'weight': 1}
+16521 type axon
+4642 type spine
+4644 type spine
+4645 type spine
+4649 type spine
+16249 type axon
+16522 type axon
+4663 type spine
+4665 type spine
+4667 type spine
+4668 5273 {'weight': 1}
+4668 type spine
+4669 type spine
+4687 5163 {'weight': 1}
+16523 type axon
+4693 type spine
+4694 type spine
+4695 type spine
+4715 type spine
+4718 type spine
+4718 5213 {'weight': 1}
+16524 type axon
+4724 type spine
+4726 type spine
+4752 type spine
+4755 type spine
+4758 type spine
+4772 type spine
+4774 type spine
+16526 type axon
+16527 type axon
+4815 type spine
+16530 type axon
+4922 type spine
+4923 type spine
+4923 5269 {'weight': 1}
+16532 type axon
+5020 type spine
+16535 type axon
+16536 type axon
+14502 type axon
+5100 5338 {'weight': 1}
+5100 5159 {'weight': 1}
+5116 5195 {'weight': 1}
+5116 type spine
+5128 type spine
+5130 type spine
+5131 type spine
+5132 type spine
+5133 type spine
+5134 5226 {'weight': 1}
+5134 type spine
+5135 5218 {'weight': 1}
+5135 type spine
+5137 5234 {'weight': 1}
+5137 type spine
+5138 type spine
+5139 type spine
+5140 type spine
+5141 type spine
+5142 type spine
+5143 5210 {'weight': 1}
+5143 type spine
+5144 type spine
+5144 5390 {'weight': 1}
+5145 5394 {'weight': 1}
+5145 type spine
+5146 5392 {'weight': 1}
+5146 type spine
+5147 type spine
+5147 5271 {'weight': 1}
+5148 type spine
+5149 5298 {'weight': 1}
+5149 type spine
+5150 type spine
+5152 type spine
+5153 type spine
+5154 type spine
+5157 type spine
+5157 5205 {'weight': 1}
+5158 type spine
+5158 5262 {'weight': 1}
+5159 type spine
+5161 5284 {'weight': 1}
+5161 type spine
+5162 type spine
+5163 type spine
+5164 type spine
+5165 5313 {'weight': 1}
+5165 type spine
+5166 type spine
+5166 6126 {'weight': 1}
+5171 type spine
+5172 type spine
+5173 5211 {'weight': 1}
+5173 type spine
+5175 type spine
+5175 5421 {'weight': 1}
+5176 type spine
+5176 5231 {'weight': 1}
+5177 type spine
+5177 5207 {'weight': 1}
+5181 type spine
+5185 type spine
+5186 type spine
+5187 type spine
+5188 type spine
+5189 type spine
+5189 5206 {'weight': 1}
+5191 type spine
+5192 type spine
+5193 5212 {'weight': 1}
+5193 type spine
+5195 5873 {'weight': 1}
+5196 type spine
+5197 type spine
+5198 type spine
+5198 5270 {'weight': 1}
+5199 type spine
+5199 5270 {'weight': 1}
+5200 type spine
+5200 5270 {'weight': 1}
+5201 type spine
+5207 5499 {'weight': 1}
+5207 5244 {'weight': 1}
+5208 5501 {'weight': 1}
+5210 5606 {'weight': 1}
+5211 5923 {'weight': 1}
+5211 5467 {'weight': 1}
+5214 type spine
+5216 5218 {'weight': 1}
+5216 type spine
+5218 5478 {'weight': 1}
+5224 type spine
+5225 5538 {'weight': 1}
+5226 5245 {'weight': 1}
+5227 5486 {'weight': 1}
+5228 5592 {'weight': 1}
+5228 5635 {'weight': 1}
+5229 5416 {'weight': 1}
+5229 5335 {'weight': 1}
+5234 5402 {'weight': 1}
+5235 type spine
+5236 type spine
+5237 type spine
+5238 type spine
+5239 type spine
+5240 type spine
+5243 5299 {'weight': 1}
+5243 type spine
+5244 type spine
+5245 type spine
+5246 type spine
+5247 5267 {'weight': 1}
+5247 type spine
+5248 5352 {'weight': 1}
+5248 type spine
+5249 5363 {'weight': 1}
+5249 type spine
+5250 type spine
+5251 type spine
+5251 5277 {'weight': 1}
+5252 type spine
+5252 5350 {'weight': 1}
+5253 type spine
+5255 type spine
+5255 5391 {'weight': 1}
+5258 type spine
+5258 5365 {'weight': 1}
+5259 type spine
+5259 5397 {'weight': 1}
+5260 type spine
+5262 5546 {'weight': 1}
+5266 5977 {'weight': 1}
+5270 5490 {'weight': 1}
+5270 5383 {'weight': 1}
+5272 5449 {'weight': 1}
+5273 5433 {'weight': 1}
+5277 5492 {'weight': 1}
+5278 5594 {'weight': 1}
+5281 5355 {'weight': 1}
+5285 5591 {'weight': 1}
+5293 5529 {'weight': 1}
+5296 5624 {'weight': 1}
+5297 5485 {'weight': 1}
+5300 5602 {'weight': 1}
+5307 type spine
+5308 type spine
+5309 type spine
+5310 type spine
+5311 5347 {'weight': 1}
+5311 type spine
+5314 5374 {'weight': 1}
+5314 5921 {'weight': 1}
+5316 5387 {'weight': 1}
+5316 5582 {'weight': 1}
+5316 5617 {'weight': 1}
+5316 5813 {'weight': 1}
+5316 5531 {'weight': 1}
+5319 5482 {'weight': 1}
+5319 5596 {'weight': 1}
+5319 5829 {'weight': 1}
+5323 type spine
+5326 type spine
+5328 5527 {'weight': 1}
+5329 type spine
+5333 5425 {'weight': 1}
+5333 type spine
+5335 type spine
+5337 5369 {'weight': 1}
+5337 type spine
+5338 type spine
+5339 type spine
+5340 type spine
+5341 type spine
+5342 type spine
+5343 5655 {'weight': 1}
+5344 5581 {'weight': 1}
+5345 5584 {'weight': 1}
+5345 5377 {'weight': 1}
+5345 5557 {'weight': 1}
+5346 6114 {'weight': 1}
+5347 5406 {'weight': 1}
+5348 5388 {'weight': 1}
+5349 5361 {'weight': 1}
+5350 5401 {'weight': 1}
+5351 5664 {'weight': 1}
+5355 type spine
+5357 type spine
+5359 type spine
+5361 type spine
+5370 5410 {'weight': 1}
+5371 5380 {'weight': 1}
+5372 5603 {'weight': 1}
+5374 type spine
+5377 type spine
+5378 type spine
+5379 type spine
+5380 type spine
+5381 type spine
+5382 type spine
+5383 type spine
+5384 type spine
+5386 5424 {'weight': 1}
+5386 type spine
+5387 type spine
+5388 type spine
+5390 5638 {'weight': 1}
+5391 5472 {'weight': 1}
+5393 5465 {'weight': 1}
+5395 5530 {'weight': 1}
+5396 5553 {'weight': 1}
+5399 5411 {'weight': 1}
+5401 type spine
+5402 type spine
+5406 type spine
+5407 5417 {'weight': 1}
+5407 5579 {'weight': 1}
+5407 5916 {'weight': 1}
+5409 type spine
+5410 type spine
+5411 type spine
+5412 type spine
+5414 type spine
+5415 type spine
+5416 type spine
+5417 type spine
+5418 type spine
+5423 5456 {'weight': 1}
+5427 5494 {'weight': 1}
+5428 5554 {'weight': 1}
+5429 5448 {'weight': 1}
+5430 5662 {'weight': 1}
+5433 type spine
+5434 type spine
+5437 type spine
+5438 type spine
+5438 5694 {'weight': 1}
+5439 type spine
+5440 type spine
+5441 type spine
+5442 type spine
+5443 type spine
+5444 type spine
+5446 type spine
+5448 type spine
+5449 type spine
+5451 type spine
+5453 type spine
+5456 type spine
+5458 type spine
+5459 type spine
+5460 type spine
+5462 4080 {'weight': 1}
+5462 type spine
+5464 type spine
+5465 type spine
+5467 type spine
+5471 type spine
+5472 type spine
+5473 type spine
+5476 type spine
+5478 type spine
+5479 type spine
+5481 type spine
+5482 type spine
+5483 type spine
+5484 type spine
+5485 type spine
+5486 type spine
+5488 type spine
+5489 type spine
+5490 type spine
+5491 type spine
+5492 type spine
+5493 type spine
+5494 type spine
+13687 type axon
+5496 type spine
+13689 type axon
+5498 type spine
+5499 type spine
+13692 type axon
+5501 type spine
+5503 type spine
+5504 type spine
+5505 type spine
+5509 type spine
+5510 type spine
+13703 type axon
+5512 type spine
+5513 type spine
+5514 type spine
+5515 type spine
+13708 type axon
+13709 type axon
+13710 type axon
+13711 type axon
+5520 type spine
+13713 type axon
+13714 type axon
+13715 type axon
+13716 type axon
+13717 type axon
+13718 type axon
+5527 type spine
+5528 type spine
+5528 5989 {'weight': 1}
+5529 type spine
+5530 type spine
+5531 type spine
+5532 type spine
+13725 type axon
+13726 type axon
+13727 type axon
+13728 type axon
+13729 type axon
+5538 type spine
+13731 type axon
+5540 type spine
+13733 type axon
+5542 type spine
+13735 type axon
+5544 type spine
+13737 type axon
+5546 type spine
+13739 type axon
+5548 type spine
+5549 type spine
+13742 type axon
+13743 type axon
+5552 type spine
+5553 type spine
+5554 type spine
+13747 type axon
+13748 type axon
+5557 type spine
+5558 type spine
+13751 type axon
+5560 type spine
+13753 type axon
+13754 type axon
+13755 type axon
+13756 type axon
+13757 type axon
+13758 type axon
+13759 type axon
+13760 type axon
+13761 type axon
+13762 type axon
+13763 type axon
+13764 type axon
+13765 type axon
+13766 type axon
+13767 type axon
+13768 type axon
+13769 type axon
+13770 type axon
+5579 type spine
+13772 type axon
+5581 type spine
+5582 type spine
+5583 type spine
+5584 type spine
+13777 type axon
+5586 type spine
+13779 type axon
+5588 type spine
+5589 type spine
+5590 type spine
+5591 type spine
+5592 type spine
+5593 type spine
+5594 type spine
+13787 type axon
+5596 type spine
+5597 type spine
+5598 type spine
+13791 type axon
+5600 type spine
+5601 type spine
+5602 type spine
+5603 type spine
+5604 type spine
+5605 type spine
+5606 type spine
+5607 type spine
+5610 type spine
+5614 type spine
+5617 type spine
+5618 type spine
+5619 type spine
+5621 type spine
+5622 type spine
+13815 type axon
+5624 type spine
+5625 type spine
+5626 type spine
+13819 type axon
+13820 type axon
+5629 type spine
+13822 type axon
+13823 type axon
+5632 type spine
+13825 type axon
+5635 type spine
+13828 type axon
+13829 type axon
+5638 type spine
+13831 type axon
+13832 type axon
+13833 type axon
+13834 type axon
+13835 type axon
+13836 type axon
+13837 type axon
+13838 type axon
+13839 type axon
+13840 type axon
+13841 type axon
+13842 type axon
+13843 type axon
+13844 type axon
+5653 type spine
+5654 type spine
+5655 type spine
+5656 type spine
+13850 type axon
+13851 type axon
+13852 type axon
+13853 type axon
+5662 type spine
+13855 type axon
+5664 type spine
+5665 type spine
+13858 type axon
+13859 type axon
+13860 type axon
+13861 type axon
+13862 type axon
+13863 type axon
+13864 type axon
+13865 type axon
+13866 type axon
+13867 type axon
+13868 type axon
+13869 type axon
+13870 type axon
+5679 type spine
+13872 type axon
+13873 type axon
+5682 type spine
+13875 type axon
+13876 type axon
+13877 type axon
+13878 type axon
+13879 type axon
+13880 type axon
+13881 type axon
+13882 type axon
+13883 type axon
+13884 type axon
+13885 type axon
+13886 type axon
+13887 type axon
+13888 type axon
+13889 type axon
+13890 type axon
+5699 type spine
+13892 type axon
+13893 type axon
+13894 type axon
+13895 type axon
+13896 type axon
+13897 type axon
+13898 type axon
+13899 type axon
+13900 type axon
+13901 type axon
+13902 type axon
+13903 type axon
+13904 type axon
+13905 type axon
+13906 type axon
+13907 type axon
+13908 type axon
+13909 type axon
+13910 type axon
+13911 type axon
+13912 type axon
+13913 type axon
+13914 type axon
+13915 type axon
+13916 type axon
+13917 type axon
+13918 type axon
+5727 type spine
+13920 type axon
+13921 type axon
+13922 type axon
+13923 type axon
+13924 type axon
+13925 type axon
+13926 type axon
+13927 type axon
+13928 type axon
+13929 type axon
+13830 type axon
+13931 type axon
+13932 type axon
+13933 type axon
+5742 type spine
+13935 type axon
+13936 type axon
+13937 type axon
+13938 type axon
+13939 type axon
+13940 type axon
+13941 type axon
+13942 type axon
+13943 type axon
+13944 type axon
+13945 type axon
+13946 type axon
+13947 type axon
+13948 type axon
+13949 type axon
+13950 type axon
+13951 type axon
+13952 type axon
+13953 type axon
+13954 type axon
+13955 type axon
+13956 type axon
+13957 type axon
+13958 type axon
+13959 type axon
+13960 type axon
+13961 type axon
+13962 type axon
+13963 type axon
+13964 type axon
+13965 type axon
+13966 type axon
+13967 type axon
+13968 type axon
+13969 type axon
+13970 type axon
+13972 type axon
+13973 type axon
+13974 type axon
+13975 type axon
+13976 type axon
+13977 type axon
+13978 type axon
+13979 type axon
+13980 type axon
+13981 type axon
+13982 type axon
+13983 type axon
+13984 type axon
+13985 type axon
+13986 type axon
+13987 type axon
+13988 type axon
+13989 type axon
+13990 type axon
+13991 type axon
+13992 type axon
+13993 type axon
+13994 type axon
+13995 type axon
+13996 type axon
+13997 type axon
+13998 type axon
+13999 type axon
+14000 type axon
+14001 type axon
+14002 type axon
+14003 type axon
+14004 type axon
+5813 type spine
+14006 type axon
+14007 type axon
+14008 type axon
+14009 type axon
+14010 type axon
+14011 type axon
+5820 type spine
+14013 type axon
+14014 type axon
+14015 type axon
+14016 type axon
+14017 type axon
+14018 type axon
+14019 type axon
+14020 type axon
+5829 type spine
+14022 type axon
+14023 type axon
+14024 type axon
+14025 type axon
+14028 type axon
+14030 type axon
+14031 type axon
+14032 type axon
+14033 type axon
+14034 type axon
+14035 type axon
+14036 type axon
+14037 type axon
+14038 type axon
+14039 type axon
+14041 type axon
+14042 type axon
+14043 type axon
+14044 type axon
+14045 type axon
+14046 type axon
+14047 type axon
+14048 type axon
+14049 type axon
+14050 type axon
+14051 type axon
+14052 type axon
+14053 type axon
+5862 type spine
+14055 type axon
+14056 type axon
+5865 type spine
+14058 type axon
+14059 type axon
+14060 type axon
+14061 type axon
+14062 type axon
+14063 type axon
+5872 type spine
+5873 type spine
+14066 type axon
+14067 type axon
+14068 type axon
+14069 type axon
+14070 type axon
+14071 type axon
+14072 type axon
+14073 type axon
+14074 type axon
+14075 type axon
+14076 type axon
+14077 type axon
+5886 type spine
+14079 type axon
+14080 type axon
+14081 type axon
+14082 type axon
+14083 type axon
+14084 type axon
+14085 type axon
+14108 type axon
+5895 type spine
+14088 type axon
+14089 type axon
+14090 type axon
+14091 type axon
+14092 type axon
+14093 type axon
+14094 type axon
+14095 type axon
+14096 type axon
+14097 type axon
+14098 type axon
+14099 type axon
+14100 type axon
+14101 type axon
+14102 type axon
+14103 type axon
+14104 type axon
+14105 type axon
+14106 type axon
+14107 type axon
+5916 type spine
+14109 type axon
+14110 type axon
+14111 type axon
+14112 type axon
+5921 type spine
+5922 type spine
+5923 type spine
+14116 type axon
+14117 type axon
+14118 type axon
+14119 type axon
+14121 type axon
+14122 type axon
+14123 type axon
+14124 type axon
+14125 type axon
+14126 type axon
+14127 type axon
+14128 type axon
+14129 type axon
+14130 type axon
+14131 type axon
+14132 type axon
+14133 type axon
+14134 type axon
+14135 type axon
+14136 type axon
+14137 type axon
+5946 type spine
+14139 type axon
+14140 type axon
+14142 type axon
+14143 type axon
+14144 type axon
+14145 type axon
+14146 type axon
+14147 type axon
+14148 type axon
+14149 type axon
+14150 type axon
+14151 type axon
+14152 type axon
+14153 type axon
+14154 type axon
+14155 type axon
+14156 type axon
+14157 type axon
+14158 type axon
+14159 type axon
+5968 type spine
+5968 5694 {'weight': 1}
+14161 type axon
+14162 type axon
+14163 type axon
+14164 type axon
+14166 type axon
+14167 type axon
+14168 type axon
+5977 type spine
+14170 type axon
+14171 type axon
+14172 type axon
+14173 type axon
+14174 type axon
+14175 type axon
+14176 type axon
+14177 type axon
+14178 type axon
+5987 type spine
+5988 type spine
+14181 type axon
+5990 type spine
+14183 type axon
+14184 type axon
+14185 type axon
+14186 type axon
+14187 type axon
+14188 type axon
+14189 type axon
+14190 type axon
+14191 type axon
+14192 type axon
+14193 type axon
+14194 type axon
+14195 type axon
+6004 type spine
+14197 type axon
+14198 type axon
+14199 type axon
+6008 type spine
+14201 type axon
+13788 type axon
+14203 type axon
+14204 type axon
+14205 type axon
+14206 type axon
+14207 type axon
+14208 type axon
+14209 type axon
+14210 type axon
+14211 type axon
+14213 type axon
+14214 type axon
+14215 type axon
+14216 type axon
+14217 type axon
+14218 type axon
+6027 type spine
+14220 type axon
+14221 type axon
+14222 type axon
+14223 type axon
+14224 type axon
+14226 type axon
+14227 type axon
+14228 type axon
+14229 type axon
+14230 type axon
+14231 type axon
+6040 type spine
+14233 type axon
+14234 type axon
+14235 type axon
+14236 type axon
+14237 type axon
+14238 type axon
+14239 type axon
+14240 type axon
+14241 type axon
+14242 type axon
+14243 type axon
+14247 type axon
+14249 type axon
+14252 type axon
+14253 type axon
+14254 type axon
+14255 type axon
+14256 type axon
+14257 type axon
+14258 type axon
+14259 type axon
+14260 type axon
+14261 type axon
+14273 type axon
+14274 type axon
+14275 type axon
+14276 type axon
+14277 type axon
+14278 type axon
+14279 type axon
+14280 type axon
+14282 type axon
+6098 type spine
+6114 type spine
+14349 type axon
+14350 type axon
+14352 type axon
+14354 type axon
+14355 type axon
+14356 type axon
+14357 type axon
+14358 type axon
+14685 type axon
+14386 type axon
+14388 type axon
+14389 type axon
+14390 type axon
+14391 type axon
+14392 type axon
+14393 type axon
+14394 type axon
+14395 type axon
+14407 type axon
+14408 type axon
+14409 type axon
+14410 type axon
+14411 type axon
+14412 type axon
+14414 type axon
+14415 type axon
+14416 type axon
+14417 type axon
+6244 6472 {'weight': 1}
+6244 type spine
+14441 type axon
+14442 type axon
+14443 type axon
+14445 type axon
+14446 type axon
+14447 type axon
+14448 type axon
+14449 type axon
+14450 type axon
+14451 type axon
+14452 type axon
+14453 type axon
+14454 type axon
+14455 type axon
+14456 type axon
+14457 type axon
+14458 type axon
+14459 type axon
+14462 type axon
+14463 type axon
+14464 type axon
+14465 type axon
+14466 type axon
+14467 type axon
+14468 type axon
+14470 type axon
+14471 type axon
+14496 type axon
+14497 type axon
+14498 type axon
+14499 type axon
+14500 type axon
+14501 type axon
+13790 type axon
+14503 type axon
+14504 type axon
+14505 type axon
+14507 type axon
+14508 type axon
+14510 type axon
+14511 type axon
+14512 type axon
+14513 type axon
+14515 type axon
+14516 type axon
+14539 type axon
+14540 type axon
+14541 type axon
+14542 type axon
+14543 type axon
+14544 type axon
+14545 type axon
+14546 type axon
+14548 type axon
+14550 type axon
+14552 type axon
+14553 type axon
+14554 type axon
+14555 type axon
+14556 type axon
+14557 type axon
+14558 type axon
+14572 type axon
+14573 type axon
+14575 type axon
+14577 type axon
+14578 type axon
+14579 type axon
+14580 type axon
+14581 type axon
+14582 type axon
+14606 type axon
+14607 type axon
+14608 type axon
+14610 type axon
+14611 type axon
+14612 type axon
+14614 type axon
+14615 type axon
+14631 type axon
+14632 type axon
+14633 type axon
+14635 type axon
+14636 type axon
+14637 type axon
+14638 type axon
+14639 type axon
+14640 type axon
+6479 6493 {'weight': 1}
+14683 type axon
+14684 type axon
+6493 type spine
+14686 type axon
+14687 type axon
+14688 type axon
+14689 type axon
+14690 type axon
+14691 type axon
+14692 type axon
+14738 type axon
+14739 type axon
+14740 type axon
+14741 type axon
+14742 type axon
+14743 type axon
+14744 type axon
+14745 type axon
+14746 type axon
+14778 type axon
+14780 type axon
+14785 type axon
+14865 type axon
+14872 type axon
+14967 type axon
+14968 type axon
+14970 type axon
+15038 type axon
+15049 type axon
+15074 type axon
+15076 type axon
+15089 type axon
+15093 type axon
+15100 type axon
+13871 type axon
+15195 type axon
+15205 type axon
+15206 type axon
+15207 type axon
+15208 type axon
+15210 type axon
+15211 type axon
+15212 type axon
+15213 type axon
+15218 type axon
+15225 type axon
+15226 type axon
+15227 type axon
+15228 type axon
+15229 type axon
+15230 type axon
+15231 type axon
+15233 type axon
+15234 type axon
+13874 type axon
+15262 type axon
+15265 type axon
+15266 type axon
+15267 type axon
+15268 type axon
+15269 type axon
+15270 type axon
+15271 type axon
+15272 type axon
+15273 type axon
+15277 type axon
+15278 type axon
+15281 type axon
+15282 type axon
+15284 type axon
+15285 type axon
+15286 type axon
+15287 type axon
+15288 type axon
+15289 type axon
+15290 type axon
+15292 type axon
+15293 type axon
+15294 type axon
+15295 type axon
+15296 type axon
+15297 type axon
+15298 type axon
+15299 type axon
+15300 type axon
+15305 type axon
+15313 type axon
+15314 type axon
+15316 type axon
+15317 type axon
+15318 type axon
+15319 type axon
+15320 type axon
+15321 type axon
+15322 type axon
+15328 type axon
+15343 type axon
+15344 type axon
+15345 type axon
+15346 type axon
+15347 type axon
+15348 type axon
+15349 type axon
+15350 type axon
+15351 type axon
+15352 type axon
+15363 type axon
+15364 type axon
+15365 type axon
+15366 type axon
+15367 type axon
+15368 type axon
+15369 type axon
+15370 type axon
+15371 type axon
+15372 type axon
+15390 type axon
+15391 type axon
+15392 type axon
+15393 type axon
+15394 type axon
+15395 type axon
+15396 type axon
+15397 type axon
+15399 type axon
+15407 type axon
+15421 type axon
+15422 type axon
+15423 type axon
+15424 type axon
+15425 type axon
+15426 type axon
+15427 type axon
+15428 type axon
+15429 type axon
+15430 type axon
+16611 type axon
+15567 type axon
+15568 type axon
+15569 type axon
+15570 type axon
+15571 type axon
+15572 type axon
+15573 type axon
+15574 type axon
+15575 type axon
+15576 type axon
+15640 type axon
+15642 type axon
+15643 type axon
+15645 type axon
+15646 type axon
+15647 type axon
+15648 type axon
+15649 type axon
+15651 type axon
+15660 type axon
+15666 type axon
+15667 type axon
+15668 type axon
+15669 type axon
+15670 type axon
+15672 type axon
+15673 type axon
+15674 type axon
+15675 type axon
+15683 type axon
+15686 type axon
+15687 type axon
+15688 type axon
+15689 type axon
+15690 type axon
+15691 type axon
+15692 type axon
+15693 type axon
+15694 type axon
+15695 type axon
+15701 type axon
+15702 type axon
+15703 type axon
+15704 type axon
+15705 type axon
+15706 type axon
+15707 type axon
+15708 type axon
+15709 type axon
+15714 type axon
+15715 type axon
+15716 type axon
+15717 type axon
+15718 type axon
+15719 type axon
+15720 type axon
+15722 type axon
+15723 type axon
+15724 type axon
+15730 type axon
+15732 type axon
+15733 type axon
+15734 type axon
+15735 type axon
+15736 type axon
+15737 type axon
+15738 type axon
+15739 type axon
+15741 type axon
+15744 type axon
+15748 type axon
+15749 type axon
+15750 type axon
+15751 type axon
+15753 type axon
+15754 type axon
+15756 type axon
+15757 type axon
+15760 type axon
+15765 type axon
+15766 type axon
+15767 type axon
+15768 type axon
+15769 type axon
+15771 type axon
+15772 type axon
+15773 type axon
+15774 type axon
+15789 type axon
+15790 type axon
+15791 type axon
+15792 type axon
+15793 type axon
+15794 type axon
+15796 type axon
+15797 type axon
+15798 type axon
+15799 type axon
+15800 type axon
+15801 type axon
+15802 type axon
+15803 type axon
+15804 type axon
+15805 type axon
+15806 type axon
+15807 type axon
+15808 type axon
+15809 type axon
+15810 type axon
+15811 type axon
+15843 type axon
+15851 type axon
+15853 type axon
+15854 type axon
+15855 type axon
+15866 type axon
+15867 type axon
+15868 type axon
+15869 type axon
+15870 type axon
+15893 type axon
+15900 type axon
+15901 type axon
+15902 type axon
+15903 type axon
+15904 type axon
+15906 type axon
+15907 type axon
+15920 type axon
+15928 type axon
+15934 type axon
+15935 type axon
+15941 type axon
+15942 type axon
+15944 type axon
+15950 type axon
+15953 type axon
+15956 type axon
+15957 type axon
+15958 type axon
+15959 type axon
+15960 type axon
+15961 type axon
+15962 type axon
+15963 type axon
+15964 type axon
+15965 type axon
+15966 type axon
+15973 type axon
+15974 type axon
+15975 type axon
+15976 type axon
+15979 type axon
+15980 type axon
+15982 type axon
+15983 type axon
+15984 type axon
+15989 type axon
+15992 type axon
+15993 type axon
+15994 type axon
+15995 type axon
+15996 type axon
+15997 type axon
+15998 type axon
+15999 type axon
+16013 type axon
+16014 type axon
+16015 type axon
+16016 type axon
+16018 type axon
+16019 type axon
+16020 type axon
+16388 type axon
+10865 type axon
+16042 type axon
+10866 type axon
+16047 type axon
+16050 type axon
+16051 type axon
+16053 type axon
+16066 type axon
+16070 type axon
+16075 type axon
+16079 type axon
+16086 type axon
+16090 type axon
+16093 type axon
+16094 type axon
+16109 type axon
+16112 type axon
+16116 type axon
+16119 type axon
+16124 type axon
+16126 type axon
+16127 type axon
+16155 type axon
+16156 type axon
+16157 type axon
+16159 type axon
+16160 type axon
+16161 type axon
+16162 type axon
+16164 type axon
+16165 type axon
+16166 type axon
+16168 type axon
+16170 type axon
+16171 type axon
+16172 type axon
+16173 type axon
+16175 type axon
+16176 type axon
+16177 type axon
+16179 type axon
+16180 type axon
+16181 type axon
+16182 type axon
+16183 type axon
+16184 type axon
+16185 type axon
+16186 type axon
+16187 type axon
+16188 type axon
+16190 type axon
+16191 type axon
+16193 type axon
+16195 type axon
+16196 type axon
+16197 type axon
+16198 type axon
+16199 type axon
+16200 type axon
+16201 type axon
+16202 type axon
+16203 type axon
+16204 type axon
+16205 type axon
+16206 type axon
+16207 type axon
+16208 type axon
+16209 type axon
+16210 type axon
+16212 type axon
+16213 type axon
+16214 type axon
+16215 type axon
+16216 type axon
+16217 type axon
+16219 type axon
+16220 type axon
+16221 type axon
+16225 type axon
+16226 type axon
+16228 type axon
+16229 type axon
+16230 type axon
+16231 type axon
+16232 type axon
+16233 type axon
+16236 type axon
+16237 type axon
+16238 type axon
+16240 type axon
+16241 type axon
+16242 type axon
+16245 type axon
+16246 type axon
+16247 type axon
+16248 type axon
+14180 type axon
+16250 type axon
+16252 type axon
+16253 type axon
+16254 type axon
+16255 type axon
+16256 type axon
+16259 type axon
+16260 type axon
+16261 type axon
+16262 type axon
+16264 type axon
+16266 type axon
+16267 type axon
+16268 type axon
+16270 type axon
+16271 type axon
+16272 type axon
+16273 type axon
+16275 type axon
+16276 type axon
+16277 type axon
+16278 type axon
+16279 type axon
+16280 type axon
+16281 type axon
+16282 type axon
+16283 type axon
+16284 type axon
+16285 type axon
+16286 type axon
+16287 type axon
+16288 type axon
+16289 type axon
+16290 type axon
+16293 type axon
+16295 type axon
+16297 type axon
+16298 type axon
+16299 type axon
+16302 type axon
+16303 type axon
+16305 type axon
+16306 type axon
+16307 type axon
+16308 type axon
+16309 type axon
+16310 type axon
+16311 type axon
+16312 type axon
+16313 type axon
+16314 type axon
+16315 type axon
+16316 type axon
+16318 type axon
+16319 type axon
+16321 type axon
+16322 type axon
+16323 type axon
+16324 type axon
+16325 type axon
+16326 type axon
+16327 type axon
+16328 type axon
+16329 type axon
+16330 type axon
+16331 type axon
+16333 type axon
+16334 type axon
+16335 type axon
+16336 type axon
+16337 type axon
+16338 type axon
+16339 type axon
+16340 type axon
+16341 type axon
+16342 type axon
+16343 type axon
+16344 type axon
+16345 type axon
+16346 type axon
+16347 type axon
+16348 type axon
+16349 type axon
+16350 type axon
+16351 type axon
+16352 type axon
+16353 type axon
+16354 type axon
+16355 type axon
+16356 type axon
+16357 type axon
+16358 type axon
+16360 type axon
+16362 type axon
+16363 type axon
+16364 type axon
+16365 type axon
+16366 type axon
+16368 type axon
+16369 type axon
+16370 type axon
+16371 type axon
+16372 type axon
+16373 type axon
+16374 type axon
+16376 type axon
+16377 type axon
+16379 type axon
+16381 type axon
+16382 type axon
+16383 type axon
