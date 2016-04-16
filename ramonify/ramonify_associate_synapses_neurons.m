@@ -58,7 +58,7 @@ for i = 1:length(synIdMap)
     
     ii = find(ss == alink);
     try
-        s(ii).synapses = [s(ii).synapses, alink];
+        s(ii).synapses = [s(ii).synapses, y(i).id];
     catch
         fprintf('No match found for id %d\n', alink)
         
@@ -71,7 +71,7 @@ for i = 1:length(synIdMap)
             alink = mode(pix);
             
             ii = find(ss == alink);
-            s(ii).synapses = [s(ii).synapses, alink];
+            s(ii).synapses = [s(ii).synapses, y(i).id];
         else
             c = c+1;
         end
@@ -79,7 +79,7 @@ for i = 1:length(synIdMap)
     
     ii = find(ss == dlink);
     try
-        s(ii).synapses = [s(ii).synapses, dlink];
+        s(ii).synapses = [s(ii).synapses, y(i).id];
     catch
         fprintf('No match found for id %d\n', dlink)
         
@@ -91,7 +91,7 @@ for i = 1:length(synIdMap)
             fprintf('Recovering synapse!\n')
             dlink = mode(pix);
             ii = find(ss == dlink);
-            s(ii).synapses = [s(ii).synapses, dlink];
+            s(ii).synapses = [s(ii).synapses, y(i).id];
         else
             c = c+1;
         end

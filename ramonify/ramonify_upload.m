@@ -25,13 +25,15 @@ for i = 1:length(s)
     S.setClass(s(i).segment_class);
     S.setResolution(s(i).resolution);
     S.addDynamicMetadata('segment_subtype',s(i).segment_subtype);
-    
+    S.setSynapses(unique(s(i).synapses));
+
     is_spine = 0;
     if isfield(s(i),'is_spine')
         is_spine = s(i).is_spine;
     end
     S.addDynamicMetadata('is_spine', is_spine);
     S.addDynamicMetadata('spine_str',num2str(is_spine));
+    S.addDynamicMetadata('synapse',num2str(unique(s(i).synapses)));
     oo.createAnnotation(S);    
 end
 
@@ -40,6 +42,7 @@ end
 for i = 1:length(n)
     i
     N = RAMONNeuron;
+
     N.setId(n(i).id);
     N.setSegments(n(i).neuron_segment);
     oo.createAnnotation(N);
@@ -61,6 +64,8 @@ for i = 1:length(y)
     Y.addDynamicMetadata('multiSynapseBouton',y(i).multiSynapseBouton);
     Y.addDynamicMetadata('vesicleCount',y(i).vesicleCount);
     Y.addDynamicMetadata('axonSynapseType',y(i).axonSynapseType);
+    Y.addDynamicMetadata('presynaptic',y(i).presynaptic);
+    Y.addDynamicMetadata('postsynaptic',y(i).postsynaptic);
     
     oo.createAnnotation(Y);
 end
